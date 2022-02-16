@@ -40,6 +40,7 @@ button{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Comfortaa', cursive;
+    color: var(--green)
 }
 h2{
     font-weight: lighter;
@@ -65,17 +66,61 @@ span{
     }
 p{
     padding: 0.5rem 0rem;
-    color: #ccc;
-    font-size: 1.4rem;
+    color: var(--black);
+    font-size: calc(0.6rem + 1vw);
     line-height: 125%;
+    @media (min-width: 992px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 22px;
+    }
     }
 .p-0{
     padding: 0;
 }
+.location-image{
+  width: 100%;
+  height: auto;
+}
+.description{
+  text-align: justify;
+}
+.quote{
+  color: var(--green);
+  font-family: 'Marcellus', serif;
+}
+.location-name{
+  text-align: center;
+}
 
+/* Location Image swiper */
 .swiper {
     transition: all 1s;
     padding-bottom: 1rem;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+    @media (min-width: 705px) {
+      width: 100%;
+      height: 50vh;
+      background-position: center center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      img {
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+    @media (min-width: 1200px) {
+      height: 90vh;
+      img {
+        width: auto;
+        max-height: 90vh;
+      }
+    }
   }
 
   .swiper-button-next,
@@ -84,21 +129,15 @@ p{
     background: var(--white);
     padding: 1.3rem;
     border-radius: 50%;
-    top: 30%;
+    top: 50%;
     transition: all 1s;
-    @media (min-width: 567px) {
-      top: 40%;
-    }
-    @media (min-width: 768px) {
-      top: 50%;
-    }
     @media (min-width: 1200px) {
       padding: 2rem;
     }
   }
   .design-slides .swiper-button-next,
   .design-slides .swiper-button-prev {
-    top: 45%;
+    top: 50%;
   }
   .swiper-button-next::after,
   .swiper-button-prev::after {
@@ -115,14 +154,20 @@ p{
   .design-slides {
     padding-bottom: 2.5rem;
   }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10%;
+}
   .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .7);
     transition: all 1s;
   }
   .swiper-pagination-bullet-active {
     background: var(--green);
     border: 0.5px solidvar(--white);
     font-size: 2rem;
-    transform: scale(2);
+    transform: scale(1.7);
   }
 `;
 

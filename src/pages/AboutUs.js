@@ -33,21 +33,6 @@ const AboutUs = () => {
 
 const WorkContainer = styled.div`
   background: var(--white);
-  position: relative;
-  .anchor {
-    position: absolute;
-    top: -10vh;
-  }
-  :before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -50px;
-    height: 150px;
-    background: var(--white);
-    transform: skewY(-3deg);
-  }
 `;
 
 export default AboutUs;

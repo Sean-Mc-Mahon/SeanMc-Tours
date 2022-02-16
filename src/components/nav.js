@@ -154,11 +154,6 @@ const LogoAnimation = styled.div`
   @media (min-width: 1200px) {
     margin: 1rem 2rem;
   }
-  #seanmc {
-    -webkit-filter: drop-shadow(0px 0px 5px var(--green));
-    filter: drop-shadow(0px 0px 5px var(--green));
-    animation: flicker 0.8s 4 1s;
-  }
   #seanmc path:nth-child(1) {
     stroke-dasharray: 322px;
     stroke-dashoffset: 322;
