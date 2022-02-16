@@ -4,10 +4,10 @@ import styled from "styled-components";
 //Animations
 import { motion } from "framer-motion";
 //images
-import Cliffs2 from "../img/cliffs/cliffs_2.jpg";
-import Burren1 from "../img/cliffs/burren_1.jpg";
-import Kilmac1 from "../img/cliffs/kilmac_1.jpg";
-import Gal1 from "../img/cliffs/gal_1.jpeg";
+import Cliffs2 from "../img/cliffs/cliffs_2.webp";
+import Burren1 from "../img/cliffs/burren_1.webp";
+import Kilmac1 from "../img/cliffs/kilmac_1.webp";
+import Gal1 from "../img/cliffs/gal_1.webp";
 //Links
 import { Link } from "react-router-dom";
 

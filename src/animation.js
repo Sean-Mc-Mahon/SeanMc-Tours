@@ -5,15 +5,59 @@ export const pageAnimation = {
   show: {
     opacity: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.2,
       when: "beforeChildren",
-      staggerChildren: 0.05,
+      staggerChildren: 0.25,
     },
   },
   exit: {
     opacity: 0,
     transition: {
-      duration: 0.01,
+      duration: 0.2,
+    },
+  },
+};
+
+export const TourAnim = {
+  hidden: { x: -1000 },
+  show: {
+    x: 0,
+    transition: { duration: 0.75, ease: "easeOut" },
+  },
+  exit: {
+    x: 2000,
+    transition: {
+      duration: 0.3,
+    },
+  },
+};
+
+export const TourAnim1 = {
+  hidden: { x: -1000 },
+  show: {
+    x: 0,
+    transition: { duration: 0.75, ease: "easeOut", delay: 0.1 },
+  },
+  exit: {
+    x: 2000,
+    transition: {
+      duration: 0.3,
+      delay: 0.1,
+    },
+  },
+};
+
+export const TourAnim2 = {
+  hidden: { x: -1000 },
+  show: {
+    x: 0,
+    transition: { duration: 0.75, ease: "easeOut", delay: 0.2 },
+  },
+  exit: {
+    x: 2000,
+    transition: {
+      duration: 0.3,
+      delay: 0.2,
     },
   },
 };

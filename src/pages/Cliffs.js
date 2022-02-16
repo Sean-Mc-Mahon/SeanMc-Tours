@@ -11,9 +11,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 //images
-import Cliffs1 from "../img/cliffs/cliffs_1.jpg";
-import Cliffs2 from "../img/cliffs/cliffs_2.jpg";
-import Cliffs3 from "../img/cliffs/cliffs_3.jpg";
+import Cliffs1 from "../img/cliffs/cliffs_1.webp";
+import Cliffs2 from "../img/cliffs/cliffs_2.webp";
+import Cliffs3 from "../img/cliffs/cliffs_3.webp";
 
 const Cliffs = () => {
   return (

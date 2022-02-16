@@ -2,7 +2,6 @@ import React from "react";
 //Page Components
 import AboutSection from "../components/AboutSection";
 import FaqSection from "../components/FaqSection";
-import ThreeMe from "../components/ThreeMe";
 import Work from "../components/Work";
 //Animations
 import { motion } from "framer-motion";
@@ -28,31 +27,9 @@ const AboutUs = () => {
         <Work />
       </WorkContainer>
       <FaqSection />
-      <NewFill>
-        <ThreeMe />
-      </NewFill>
     </motion.div>
   );
 };
-
-const NewFill = styled.div`
-  .fill {
-    :hover {
-      .mee {
-        opacity: 0.5;
-        @media (min-width: 768px) {
-          opacity: 0.08;
-        }
-      }
-
-      svg path {
-        fill: var(--green);
-        -webkit-filter: drop-shadow(0px 0px 5px var(--green));
-        filter: drop-shadow(0px 0px 5px var(--green));
-      }
-    }
-  }
-`;
 
 const WorkContainer = styled.div`
   background: var(--white);

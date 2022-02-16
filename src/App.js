@@ -35,6 +35,7 @@ function App() {
       <GlobalStyle />
       <Nav />
       <AnimatePresence exitBeforeEnter>
+        {/* location and key needed for AnimatePresence */}
         <Routes location={location} key={location.pathname}>
           <Route path="/" exact element={<AboutUs />}></Route>
           <Route path="/work" exact element={<Work />}></Route>
