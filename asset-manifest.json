@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/SeanMc-Tours/static/css/main.fe8baf23.css",
-    "main.js": "/SeanMc-Tours/static/js/main.76a844e7.js",
+    "main.js": "/SeanMc-Tours/static/js/main.8af462e4.js",
     "static/js/787.00f9f084.chunk.js": "/SeanMc-Tours/static/js/787.00f9f084.chunk.js",
     "static/media/glen_1.webp": "/SeanMc-Tours/static/media/glen_1.a16e35033be327a3fe3e.webp",
     "static/media/gal_1.webp": "/SeanMc-Tours/static/media/gal_1.c86f00dfa503429fe129.webp",
     "static/media/burren_1.webp": "/SeanMc-Tours/static/media/burren_1.aa710ccc30fd2f6f08dd.webp",
     "static/media/cliffs_2.webp": "/SeanMc-Tours/static/media/cliffs_2.ad0ffcc3342f5ab8735d.webp",
     "static/media/cliffs_1.webp": "/SeanMc-Tours/static/media/cliffs_1.3e156b3fd697378f2ea9.webp",
+    "static/media/burren_2.webp": "/SeanMc-Tours/static/media/burren_2.89fb9611d3d7c4121cd8.webp",
     "static/media/kilmac_1.webp": "/SeanMc-Tours/static/media/kilmac_1.5130d11dd570d9ca50d8.webp",
     "static/media/cliffs_3.webp": "/SeanMc-Tours/static/media/cliffs_3.da2eb5e5b11d5bb11533.webp",
     "static/media/cwy_1.webp": "/SeanMc-Tours/static/media/cwy_1.85cea48e43b3193aaef5.webp",
     "static/media/seanmc_poly.webp": "/SeanMc-Tours/static/media/seanmc_poly.6a6f42c37ec0e1fa3bb1.webp",
     "index.html": "/SeanMc-Tours/index.html",
     "main.fe8baf23.css.map": "/SeanMc-Tours/static/css/main.fe8baf23.css.map",
-    "main.76a844e7.js.map": "/SeanMc-Tours/static/js/main.76a844e7.js.map",
+    "main.8af462e4.js.map": "/SeanMc-Tours/static/js/main.8af462e4.js.map",
     "787.00f9f084.chunk.js.map": "/SeanMc-Tours/static/js/787.00f9f084.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe8baf23.css",
-    "static/js/main.76a844e7.js"
+    "static/js/main.8af462e4.js"
   ]
 }
