@@ -37,9 +37,9 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         {/* location and key needed for AnimatePresence */}
         <Routes location={location} key={location.pathname}>
-          <Route path="/" exact element={<AboutUs />}></Route>
+          <Route path="/" exact element={<MyTours />}></Route>
           <Route path="/work" exact element={<Work />}></Route>
-          <Route path="/tours" exact element={<MyTours />}></Route>
+          <Route path="/about" exact element={<AboutUs />}></Route>
           <Route path="/music" exact element={<MyMusic />}></Route>
           <Route path="/west" exact element={<West />}></Route>
           <Route path="/north" exact element={<North />}></Route>

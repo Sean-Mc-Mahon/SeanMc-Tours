@@ -129,11 +129,7 @@ const FaqSection = () => {
         </Toggle>
         <Toggle title="when can I do it?">
           <div className="answer">
-            <p>
-              Just get in
-              <AboutLink href="#foot"> Contact </AboutLink>
-              and we can figure it out.
-            </p>
+            <p>Just get in Contact and we can figure it out.</p>
           </div>
         </Toggle>
       </AnimateSharedLayout>
@@ -173,15 +169,6 @@ const Faq = styled(About)`
     p {
       padding: 0.25rem 0rem;
     }
-  }
-`;
-
-const AboutLink = styled.a`
-  font-size: 1.4rem;
-  color: var(--green);
-  :hover {
-    color: var(--green);
-    text-shadow: 0px 0px 3px var(--green);
   }
 `;
 

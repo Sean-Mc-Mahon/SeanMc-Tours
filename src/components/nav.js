@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <StyledNav>
+    <StyledNav className="top-nav">
       <a href="#top">
         <LogoAnimation>
           <svg
@@ -57,12 +57,12 @@ const Nav = () => {
       <ul>
         <li>
           <Link className="link" to="/">
-            Home
+            Tours
           </Link>
         </li>
         <li>
-          <Link className="link" to="/tours">
-            Tours
+          <Link className="link" to="/about">
+            About
           </Link>
         </li>
         <li>
@@ -97,8 +97,7 @@ const StyledNav = styled.nav`
     text-decoration: none;
     :hover {
       color: var(--green);
-      -webkit-filter: drop-shadow(0px 0px 5px var(--green));
-      filter: drop-shadow(0px 0px 5px var(--green));
+      font-weight: bold;
     }
   }
   ul {

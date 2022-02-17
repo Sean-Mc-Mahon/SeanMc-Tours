@@ -13,55 +13,65 @@ import { Link } from "react-router-dom";
 
 const West = () => {
   return (
-    <div>
-      <MoherWrapper>
-        <Link className="link" to="/cliffs">
-          <div className="tour-title">
-            <h1>Cliffs of Moher</h1>
-          </div>
-        </Link>
-      </MoherWrapper>
-      <BurrenWrapper>
-        <Link className="link" to="/burren">
-          <div className="tour-title">
-            <h1>The Burren</h1>
-          </div>
-        </Link>
-      </BurrenWrapper>
-      <KilmacWrapper>
-        <Link className="link" to="/kilmac">
-          <div className="tour-title">
-            <h1>Kilmacduagh</h1>
-          </div>
-        </Link>
-      </KilmacWrapper>
-      <GalWrapper>
-        <Link className="link" to="/gal">
-          <div className="tour-title">
-            <h1>Galway</h1>
-          </div>
-        </Link>
-      </GalWrapper>
-    </div>
+    <motion.div>
+      <TourWrapper>
+        <MoherWrapper>
+          <Link className="link" to="/cliffs">
+            <div className="tour-title">
+              <h1>Cliffs of Moher</h1>
+            </div>
+          </Link>
+        </MoherWrapper>
+      </TourWrapper>
+      <TourWrapper>
+        <BurrenWrapper>
+          <Link className="link" to="/burren">
+            <div className="tour-title">
+              <h1>The Burren</h1>
+            </div>
+          </Link>
+        </BurrenWrapper>
+      </TourWrapper>
+      <TourWrapper>
+        <KilmacWrapper>
+          <Link className="link" to="/kilmac">
+            <div className="tour-title">
+              <h1>Kilmacduagh</h1>
+            </div>
+          </Link>
+        </KilmacWrapper>
+      </TourWrapper>
+
+      <TourWrapper>
+        <GalWrapper>
+          <Link className="link" to="/gal">
+            <div className="tour-title">
+              <h1>Galway</h1>
+            </div>
+          </Link>
+        </GalWrapper>
+      </TourWrapper>
+    </motion.div>
   );
 };
 
-const MoherWrapper = styled(motion.div)`
+const TourWrapper = styled(motion.div)`
   height: 22.5vh;
   overflow: hidden;
+`;
+
+const MoherWrapper = styled(motion.div)`
+  width: 100%;
+  height: 100%;
   background-image: url(${Cliffs2});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  .tour-title {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  transition: all 0.5s ease-in-out;
+  :hover {
+    transform: scale(1.1);
   }
+
   h1 {
     color: var(--white);
     margin: 0;

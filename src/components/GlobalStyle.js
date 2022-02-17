@@ -40,7 +40,6 @@ button{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Comfortaa', cursive;
-    color: var(--green)
 }
 h2{
     font-weight: lighter;
@@ -79,12 +78,37 @@ p{
 .p-0{
     padding: 0;
 }
+
+/* Tour Pages */
+.tour-title {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    :hover {
+      background: rgba(4, 116, 23, 0.8);
+      h1 {
+        text-shadow: 0px 0px 5px var(--black);
+      }
+    }
+  }
+
+/* Location Pages */
 .location-image{
   width: 100%;
   height: auto;
 }
 .description{
   text-align: justify;
+  h2{
+    color: var(--green)
+  }
 }
 .quote{
   color: var(--green);

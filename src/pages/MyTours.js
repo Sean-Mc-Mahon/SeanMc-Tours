@@ -90,24 +90,6 @@ const CliffsWrapper = styled(motion.div)`
   :hover {
     transform: scale(1.1);
   }
-  .tour-title {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transition: all 0.5s ease-in-out;
-    :hover {
-      background: rgba(4, 116, 23, 0.8);
-      h1 {
-        text-shadow: 0px 0px 5px var(--black);
-      }
-    }
-  }
   h1 {
     color: var(--white);
     margin: 0;
