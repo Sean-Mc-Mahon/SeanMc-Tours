@@ -3,6 +3,13 @@ import React from "react";
 import styled from "styled-components";
 //Animations
 import { motion } from "framer-motion";
+import {
+  pageAnimation,
+  TourAnim,
+  TourAnim1,
+  TourAnim2,
+  TourAnim3,
+} from "../animation";
 //images
 import Cliffs2 from "../img/cliffs/cliffs_2.webp";
 import Burren1 from "../img/cliffs/burren_1.webp";
@@ -13,8 +20,18 @@ import { Link } from "react-router-dom";
 
 const West = () => {
   return (
-    <motion.div>
-      <TourWrapper>
+    <motion.div
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
+      <TourWrapper
+        variants={TourAnim}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
         <MoherWrapper>
           <Link className="link" to="/cliffs">
             <div className="tour-title">
@@ -23,7 +40,12 @@ const West = () => {
           </Link>
         </MoherWrapper>
       </TourWrapper>
-      <TourWrapper>
+      <TourWrapper
+        variants={TourAnim1}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
         <BurrenWrapper>
           <Link className="link" to="/burren">
             <div className="tour-title">
@@ -32,7 +54,12 @@ const West = () => {
           </Link>
         </BurrenWrapper>
       </TourWrapper>
-      <TourWrapper>
+      <TourWrapper
+        variants={TourAnim2}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
         <KilmacWrapper>
           <Link className="link" to="/kilmac">
             <div className="tour-title">
@@ -42,7 +69,12 @@ const West = () => {
         </KilmacWrapper>
       </TourWrapper>
 
-      <TourWrapper>
+      <TourWrapper
+        variants={TourAnim3}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
         <GalWrapper>
           <Link className="link" to="/gal">
             <div className="tour-title">

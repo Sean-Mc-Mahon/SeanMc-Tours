@@ -13,7 +13,7 @@ export const pageAnimation = {
   exit: {
     opacity: 0,
     transition: {
-      duration: 0.2,
+      duration: 0.5,
     },
   },
 };
@@ -27,7 +27,7 @@ export const TourAnim = {
   exit: {
     x: 2000,
     transition: {
-      duration: 0.3,
+      duration: 0.5,
     },
   },
 };
@@ -36,13 +36,13 @@ export const TourAnim1 = {
   hidden: { x: -1000 },
   show: {
     x: 0,
-    transition: { duration: 0.75, ease: "easeOut", delay: 0.1 },
+    transition: { duration: 0.75, ease: "easeOut", delay: 0.15 },
   },
   exit: {
     x: 2000,
     transition: {
-      duration: 0.3,
-      delay: 0.1,
+      duration: 0.5,
+      delay: 0.15,
     },
   },
 };
@@ -51,13 +51,28 @@ export const TourAnim2 = {
   hidden: { x: -1000 },
   show: {
     x: 0,
-    transition: { duration: 0.75, ease: "easeOut", delay: 0.2 },
+    transition: { duration: 0.75, ease: "easeOut", delay: 0.3 },
   },
   exit: {
     x: 2000,
     transition: {
-      duration: 0.3,
-      delay: 0.2,
+      duration: 0.5,
+      delay: 0.3,
+    },
+  },
+};
+
+export const TourAnim3 = {
+  hidden: { x: -1000 },
+  show: {
+    x: 0,
+    transition: { duration: 0.75, ease: "easeOut", delay: 0.45 },
+  },
+  exit: {
+    x: 2000,
+    transition: {
+      duration: 0.5,
+      delay: 0.45,
     },
   },
 };

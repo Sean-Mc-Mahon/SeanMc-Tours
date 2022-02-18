@@ -11,13 +11,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 //images
-import Galway1 from "../img/cliffs/gal_1.webp";
-import Galway2 from "../img/cliffs/gal_2.webp";
-import Galway3 from "../img/cliffs/gal_3.webp";
+import Bel1 from "../img/cwy/bel_1.webp";
+import Bel2 from "../img/cwy/bel_2.webp";
+import Bel3 from "../img/cwy/bel_3.webp";
 //bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
-const Galway = () => {
+const Bel = () => {
   return (
     <motion.div>
       <Container fluid>
@@ -32,18 +32,18 @@ const Galway = () => {
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <img className="location-image" src={Galway1} alt="Galway" />
+                <img className="location-image" src={Bel1} alt="Belfast" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="location-image" src={Galway2} alt="Galway" />
+                <img className="location-image" src={Bel2} alt="Belfast" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="location-image" src={Galway3} alt="Galway" />
+                <img className="location-image" src={Bel3} alt="Belfast" />
               </SwiperSlide>
             </Swiper>
           </Col>
           <Col xl={6} className="description">
-            <h2 className="location-name">Galway</h2>
+            <h2 className="location-name">Belfast</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
               obcaecati numquam velit a consequatur asperiores, neque non maxime
@@ -75,4 +75,4 @@ const Galway = () => {
   );
 };
 
-export default Galway;
+export default Bel;

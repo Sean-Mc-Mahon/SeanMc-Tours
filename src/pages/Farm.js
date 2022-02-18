@@ -11,13 +11,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 //images
-import Galway1 from "../img/cliffs/gal_1.webp";
-import Galway2 from "../img/cliffs/gal_2.webp";
-import Galway3 from "../img/cliffs/gal_3.webp";
+import Farm1 from "../img/glen/farm_1.webp";
 //bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
-const Galway = () => {
+const Farm = () => {
   return (
     <motion.div>
       <Container fluid>
@@ -32,18 +30,12 @@ const Galway = () => {
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <img className="location-image" src={Galway1} alt="Galway" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img className="location-image" src={Galway2} alt="Galway" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img className="location-image" src={Galway3} alt="Galway" />
+                <img className="location-image" src={Farm1} alt="Farm" />
               </SwiperSlide>
             </Swiper>
           </Col>
           <Col xl={6} className="description">
-            <h2 className="location-name">Galway</h2>
+            <h2 className="location-name">Sheepdog Demonstration</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
               obcaecati numquam velit a consequatur asperiores, neque non maxime
@@ -75,4 +67,4 @@ const Galway = () => {
   );
 };
 
-export default Galway;
+export default Farm;

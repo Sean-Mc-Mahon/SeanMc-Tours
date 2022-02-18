@@ -13,6 +13,14 @@ import Cliffs from "./pages/Cliffs";
 import Burren from "./pages/Burren";
 import Kilmac from "./pages/Kilmac";
 import Galway from "./pages/Galway";
+import Dun from "./pages/Dun";
+import Cwy from "./pages/Cwy";
+import Dark from "./pages/Dark";
+import Bel from "./pages/Bel";
+import Glen from "./pages/Glen";
+import Gap from "./pages/Gap";
+import Farm from "./pages/Farm";
+import Kil from "./pages/Kil";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 //Router
@@ -48,6 +56,14 @@ function App() {
           <Route path="/burren" exact element={<Burren />}></Route>
           <Route path="/kilmac" exact element={<Kilmac />}></Route>
           <Route path="/gal" exact element={<Galway />}></Route>
+          <Route path="/dun" exact element={<Dun />}></Route>
+          <Route path="/cwy" exact element={<Cwy />}></Route>
+          <Route path="/dark" exact element={<Dark />}></Route>
+          <Route path="/bel" exact element={<Bel />}></Route>
+          <Route path="/glen" exact element={<Glen />}></Route>
+          <Route path="/gap" exact element={<Gap />}></Route>
+          <Route path="/farm" exact element={<Farm />}></Route>
+          <Route path="/kil" exact element={<Kil />}></Route>
         </Routes>
       </AnimatePresence>
       <Footer />
