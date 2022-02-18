@@ -3,6 +3,8 @@ import GlobalStyle from "./components/GlobalStyle";
 
 //Import Pages
 import AboutUs from "./pages/AboutUs";
+import Food from "./pages/Food";
+import Reviews from "./pages/Reviews";
 import Work from "./components/Work";
 import MyTours from "./pages/MyTours";
 import MyMusic from "./pages/MyMusic";
@@ -49,6 +51,8 @@ function App() {
           <Route path="/work" exact element={<Work />}></Route>
           <Route path="/about" exact element={<AboutUs />}></Route>
           <Route path="/music" exact element={<MyMusic />}></Route>
+          <Route path="/food" exact element={<Food />}></Route>
+          <Route path="/reviews" exact element={<Reviews />}></Route>
           <Route path="/west" exact element={<West />}></Route>
           <Route path="/north" exact element={<North />}></Route>
           <Route path="/east" exact element={<East />}></Route>

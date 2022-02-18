@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components/macro";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [openBurger, setOpenBurger] = useState(false);
+
+  const BurgerClick = () => {
+    openBurger ? setOpenBurger(false) : setOpenBurger(true);
+    console.log(openBurger);
+  };
+
   return (
-    <StyledNav className="top-nav">
+    <StyledNav className={openBurger ? "burger-active" : "top-nav"}>
       <a href="#top">
         <LogoAnimation>
           <svg
@@ -55,29 +62,47 @@ const Nav = () => {
         </LogoAnimation>
       </a>
       <ul>
-        <li>
+        <li onClick={BurgerClick}>
           <Link className="link" to="/">
             Tours
           </Link>
         </li>
-        <li>
+        <li onClick={BurgerClick}>
           <Link className="link" to="/about">
             About
           </Link>
         </li>
-        <li>
+        <li onClick={BurgerClick}>
           <Link className="link" to="/music">
             Music
           </Link>
         </li>
+        <li onClick={BurgerClick}>
+          <Link className="link" to="/food">
+            Food
+          </Link>
+        </li>
+        <li onClick={BurgerClick}>
+          <Link className="link" to="/reviews">
+            Reviews
+          </Link>
+        </li>
       </ul>
+      <div
+        id="burger"
+        onClick={BurgerClick}
+        className={openBurger ? "burger-active" : "top-nav"}
+      >
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+      </div>
     </StyledNav>
   );
 };
 
 const StyledNav = styled.nav`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 0.5rem;
@@ -89,25 +114,57 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 21;
-  @media (min-width: 992px) {
-    flex-direction: row;
-  }
-  a {
-    color: var(--black);
-    text-decoration: none;
-    :hover {
-      color: var(--green);
-      font-weight: bold;
+
+  #burger{
+      cursor: pointer;
+      margin-right: 1rem;
+      div {
+      width: 25px;
+      height: 3px;
+      border-radius: 50px;
+      background-color: var(--light-grey);
+      margin: 5px;
+      transition: all 0.3s ease;
+      }
+      
+    @media (min-width: 768px) {
+      display: none;
     }
   }
+
   ul {
-    width: 100%;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 10vh;
+    background-color: var(--white);
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
+    width: 100%;
     list-style: none;
-    padding: 0 2rem;
-    margin: 0;
+    transition: transform 0.5s ease-in;
+    @media (min-width: 768px) {
+      position: relative;
+      top: auto;
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 0 2rem;
+      margin: 0;
+    }
+  a {
+    color: var(--light-grey);
+    text-decoration: none;
+    font-weight: bold;
+    :hover {
+      color: var(--green);
+    }
   }
+
   #logo {
     font-size: 1.5rem;
     font-family: "Lobster", cursive;
@@ -130,6 +187,10 @@ const StyledNav = styled.nav`
   li {
     position: relative;
     padding: 0 1rem;
+    /* opacity: 0; */
+    /* @media (min-width: 768px) {
+    opacity: 1;
+  } */
   }
   @media (min-width: 992px) {
     padding: 0;

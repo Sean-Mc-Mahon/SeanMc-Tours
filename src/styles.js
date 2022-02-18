@@ -68,6 +68,14 @@ export const Hide = styled.div`
   overflow: hidden;
 `;
 
+export const InfoPages = styled(motion.div)`
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 //Project Pages
 export const Project = styled(motion.div)`
   padding-bottom: 1rem;

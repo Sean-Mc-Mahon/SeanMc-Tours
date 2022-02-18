@@ -1,12 +1,12 @@
 import React from "react";
 import { InfoPages } from "../styles";
 
-const MyMusic = () => {
+const Food = () => {
   return (
     <InfoPages>
-      <h1>My Music</h1>
+      <h1>Food</h1>
     </InfoPages>
   );
 };
 
-export default MyMusic;
+export default Food;

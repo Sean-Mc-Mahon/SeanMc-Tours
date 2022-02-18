@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 html {
     --yellow: #ffc107;
     --grey: #282828;
+    --light-grey: #646464;
     --black: #1b1b1b;
     --green: #047417;
     --white: #f8f9fa;
@@ -193,6 +194,66 @@ p{
     font-size: 2rem;
     transform: scale(1.7);
   }
+
+  /* Navigation burger classes */
+  .burger-active {
+    ul{
+        transform: translateX(0%) !important;
+      }
+  .line1{
+    transform: rotate(-45deg) translate(-5px,6px)
+  }
+  .line2{
+    opacity: 0;
+  }
+  .line3{
+    transform: rotate(45deg) translate(-5px,-6px)
+  }
+  /* li{
+    animation: linkReveal 1s forwards 0.3s;
+    @keyframes linkReveal{
+      from{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    li{
+      opacity: 1;
+    }
+  } */
+}
+  .top-nav {
+    ul{
+        transform: translateX(100%);
+      }
+  @media (min-width: 768px) {
+    transform: translateX(0%);
+  /* li{
+    animation: linkClose 1s ease-out forwards;
+    @keyframes linkClose{
+      from{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+      to{
+        opacity: 0;
+        transform: translateX(50px);
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    li{
+      opacity: 1;
+    }
+  } */
+}
 `;
 
 export default GlobalStyle;
