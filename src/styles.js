@@ -74,6 +74,11 @@ export const InfoPages = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2 {
+    color: var(--green);
+    font-weight: bolder;
+  }
+
   a {
     color: var(--green);
     font-weight: bolder;

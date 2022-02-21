@@ -33,12 +33,36 @@ const Galway = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Galway1} alt="Galway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Shop Street</em>
+                  </div>
+                  <div className="photo-link">
+                    Source: Professor Chaosheng Zhang
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Galway2} alt="Galway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Galway Docks</em>
+                  </div>
+                  <div className="photo-link">
+                    Source: Professor Chaosheng Zhang
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Galway3} alt="Galway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Galway Docks</em>
+                  </div>
+                  <div className="photo-link">
+                    Source: Professor Chaosheng Zhang
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

@@ -33,12 +33,57 @@ const Dun = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Dun1} alt="Dunluce" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Dunluce Castle</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/101098779@N08/10087569773/in/photolist-gnpr3M-oDJKTT-EufrRU-NvWdc1-8qqWkp-2cCVyzC-ni1S4S-WeCdw6-e1Gmfy-s8fQMj-CfAqfV-GHZtmJ-asZ2V9-5mYUUJ-8zG9Nt-2eGGd5-2a385U-bMhjP2-dGS5J7-8b58oj-dn6xvp-FPSQLq-bViR1X-geKSqk-9bTeZm-7UK3E6-bsm14f-N927xE-aK4SDP-HVm4ai-xVetuT-JeCFY2-XcfGkj-Voxyi9-Nz8CJ6-2Gkqjr-qrxU6U-25Zn8Q3-8xnf7D-JFxahb-nQZ4Sk-cbhR8f-5A58dF-bRSyYK-citv7L-rNjcxC-hPae3t-dXqzXW-f3L86-5EWmw1"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Dun2} alt="Dunluce" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Dunluce Castle</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/16801915@N06/14866901613/in/photolist-oDJKTT-EufrRU-NvWdc1-8qqWkp-2cCVyzC-ni1S4S-WeCdw6-e1Gmfy-s8fQMj-CfAqfV-GHZtmJ-asZ2V9-5mYUUJ-8zG9Nt-2eGGd5-2a385U-bMhjP2-dGS5J7-8b58oj-dn6xvp-FPSQLq-bViR1X-geKSqk-9bTeZm-7UK3E6-bsm14f-N927xE-aK4SDP-HVm4ai-xVetuT-JeCFY2-XcfGkj-Voxyi9-Nz8CJ6-2Gkqjr-qrxU6U-25Zn8Q3-8xnf7D-JFxahb-nQZ4Sk-cbhR8f-5A58dF-bRSyYK-citv7L-rNjcxC-hPae3t-dXqzXW-f3L86-5EWmw1-c9qPAQ"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Dun3} alt="Dunluce" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Dunluce Castle</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/74979645@N03/6747798457/in/photolist-bhheoH-5eSgqt-9VctaJ-28VEtF9-QznEbJ-avhADn-cN8xb5-sdUx5e-e647Sn-cU9k39-avX4vL-aCqbgY-yzCnwQ-9wTvUq-XPX2p2-c5avtd-6Pjevx-c27baf-cVbVM-i7oaB-EesnhD-p8GwVt-dvqRQA-9SoYBM-n65kmT-GsRUzw-MyS941-5AsjzF-gnpr3M-oDJKTT-EufrRU-NvWdc1-8qqWkp-2cCVyzC-ni1S4S-WeCdw6-e1Gmfy-s8fQMj-CfAqfV-GHZtmJ-asZ2V9-5mYUUJ-8zG9Nt-2eGGd5-2a385U-bMhjP2-dGS5J7-8b58oj-dn6xvp-FPSQLq"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

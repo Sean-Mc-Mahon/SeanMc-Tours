@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 //images
 import Dark1 from "../img/cwy/dark_1.webp";
-import Dark2 from "../img/cwy/dark_2.webp";
+import Dark4 from "../img/cwy/dark_4.webp";
 import Dark3 from "../img/cwy/dark_3.webp";
 //bootstrap
 import { Container, Row, Col } from "react-bootstrap";
@@ -33,12 +33,57 @@ const Dark = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Dark1} alt="Dark Hedges" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>The Dark Hedges</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.belfasttelegraph.co.uk/life/features/game-of-thrones-dark-hedges-secrets-are-revealed-31380205.html"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <img className="location-image" src={Dark2} alt="Dark Hedges" />
+                <img className="location-image" src={Dark4} alt="Dark Hedges" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Dark Hedges in GoT</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.belfasttelegraph.co.uk/life/features/game-of-thrones-dark-hedges-secrets-are-revealed-31380205.html"
+                    >
+                      Belfast Telegraph
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Dark3} alt="Dark Hedges" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Dark Hedges</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/28258790@N00/33382139596/in/photolist-SRSc5Y-2hwrzgp-FhkdrS-DWCtND-2dSWry9-SqLwBx-HoM9Q1-EeWAKF-2iBXXMN-26xa1N7-X2HKLA-2jL6RaC-SUsmpG-BqAS8K-MuZ5wF-2jzSAqj-2iyetps-Ha6KsS-Ft9wCs-2jgzUo5-PBvBsX-MW5aNo-2mw9C4N-Z3rdKs-Y3AawZ-23e67tN-SqkhtY-AVtEfJ-2i4eHCc-2ht4X2F-2mJcB9V-2mQjQF4-2k7oZPx-2jwuW6J-2gPuyCz-wpefgx-2jZHb78-WRAeCR-29ZpxRu-GEPztC-2hrbCkW-GM2M4Z-22c1qwi-XkxUPh-2jUouXc-2mqYFEu-28P1Wgh-x1WsL3-2jNRNdn-GJoogT"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

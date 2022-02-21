@@ -31,6 +31,12 @@ const Farm = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Farm1} alt="Farm" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Irish Working Sheepdogs</em>
+                  </div>
+                  <div className="photo-link">Source: Author's Own</div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

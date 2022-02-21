@@ -33,12 +33,57 @@ const Cwy = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Cwy1} alt="Causeway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Giant's Causeway</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/kloppster/14213693110/"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Cwy2} alt="Causeway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Giant's Causeway</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/baku79/5083827930/in/photolist-8KeWVG-26n6zNb-8qgyAz-8qhacT-8qkDE9-2hzTwN2-8KeWLC-8qgBMM-8qgpu4-8KbTg8-8qjEVA-8qkuiC-8qjzzE-8qkLVf-8qhtkZ-8qgAoP-JH2c44-8qhebH-8qgdhg-8qg7ND-2kwYxKh-2ktc4gr-8qkxBf-8qguL8-8qjPGG-8qkNzs-8qgWyT-swUB49-8qhri6-8qjvW3-8qhz6n-8qgZZr-8qgUHF-8qgbrX-8qhhRz-8qjUH3-8qjsyE-8qh4D4-8qh6rH-8qgDJR-8qgMUa-8qkFyN-8qhjKF-fP4tBh-8qgfkF-8qkvU5-8qh8wK-8qgRkT-8qji5Q-8qjBbb"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Cwy3} alt="Causeway" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Giant's Causeway</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/smemon/4869129613/in/photolist-8qgyAz-8qhacT-8qkDE9-2hzTwN2-8KeWLC-8qgBMM-8qgpu4-8KbTg8-8qjEVA-8qkuiC-8qjzzE-8qkLVf-8qhtkZ-8qgAoP-JH2c44-8qhebH-8qgdhg-8qg7ND-2kwYxKh-2ktc4gr-8qkxBf-8qguL8-8qjPGG-8qkNzs-8qgWyT-swUB49-8qhri6-8qjvW3-8qhz6n-8qgZZr-8qgUHF-8qgbrX-8qhhRz-8qjUH3-8qjsyE-8qh4D4-8qh6rH-8qgDJR-8qgMUa-8qkFyN-8qhjKF-fP4tBh-8qgfkF-8qkvU5-8qh8wK-8qgRkT-8qji5Q-8qjBbb-8qgH7X-8qgkWX"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

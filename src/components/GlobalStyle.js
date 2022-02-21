@@ -84,6 +84,23 @@ p{
     padding: 0;
 }
 
+/* Photo Descriptions */
+.photo-description {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    a,
+    em {
+      font-size: 14px;
+      text-decoration: none;
+    }
+    a{
+      color: green;
+    }
+  }
+
 /* Tour Pages */
 .tour-title {
     width: 100%;

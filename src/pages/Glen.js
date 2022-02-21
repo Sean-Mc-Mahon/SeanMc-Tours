@@ -33,12 +33,57 @@ const Glen = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Glen1} alt="Glen" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img className="location-image" src={Glen2} alt="Glen" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Glendalough</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.pexels.com/photo/green-grass-field-near-river-under-cloudy-sky-4761282/"
+                    >
+                      Pexels
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Glen3} alt="Glen" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Glendalough</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/manuelromaris/49041854967/in/photolist-2hHEjTz-eaQMZA-eaQFVS-eaS66j-2hHp1Q1-2icqETJ-2idUzvH-omc99X-6oM2g-NYaXLq-6ENU6R-6ETd6E-6ETcKW-6EP2SM-6ETdZJ-6EP3hV-6EP47g-eaSjMC-BQCEgy-2mznHxL-CAXMfu-2gdr4aC-bRCsMn-iyycq-aBYzAx-Y4zFQA-4yYx4D-2g2cmT4-RphXc6-SN72N1-4z3Ka3-21gNx-6EtXJp-VbkQFY-9toMhF-7VUdNd-aRzj1T-9kYxVu-wYGem7-HVihPc-d2hNoh-W8Hrgg-34Rmxp-2m5TVNv-mUE59C-Cpw1nT-2kSyqac-6rsyyB-7BG2wC-qX1zt1"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img className="location-image" src={Glen2} alt="Glen" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Glendalough</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.pexels.com/photo/snow-sea-dawn-landscape-6126218/"
+                    >
+                      Pexels
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

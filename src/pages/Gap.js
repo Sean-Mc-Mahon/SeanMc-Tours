@@ -33,12 +33,48 @@ const Gap = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Gap1} alt="Gap" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Wicklow Mountains</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/osssy/13944535426/in/photolist-nfeoyA-rzpJEM-nhiZ4f-FP1gBn-nfeo5Q-nj3aqX-nhj47q-wyzP5f-ngZvF2-nfek4E-bU5Ezn-ngZvmA-Mpjek-pDVkH8-9Zg3ym-nfepqf-nfeo9s-4kjZHH-ngZwbS-biUjmH-p4TQsW-ngZtnp-M1xeM-nXUn1U-uoCTLq-nj3cjX-g2HF75-M1x4p-nhgKnx-QyKnLf-ngZvAc-biUcFF-Hnyb9-eN6Dqq-xjbUiV-nfepnj-M1rNJ-nhj4r3-wzHBDM-Hy2ZV5-2XMhZp-nfepVo-ngZuQ4-VhefZD-6hat1q-MpiKe-jWk66Z-6hascL-ngZrR9-oTheKL"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Gap2} alt="Gap" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Wicklow Mountains</em>
+                  </div>
+                  <div className="photo-link">Source: Author's Own</div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Gap3} alt="Gap" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Wicklow Mountains</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/osssy/13944535426/in/photolist-nfeoyA-rzpJEM-nhiZ4f-FP1gBn-nfeo5Q-nj3aqX-nhj47q-wyzP5f-ngZvF2-nfek4E-bU5Ezn-ngZvmA-Mpjek-pDVkH8-9Zg3ym-nfepqf-nfeo9s-4kjZHH-ngZwbS-biUjmH-p4TQsW-ngZtnp-M1xeM-nXUn1U-uoCTLq-nj3cjX-g2HF75-M1x4p-nhgKnx-QyKnLf-ngZvAc-biUcFF-Hnyb9-eN6Dqq-xjbUiV-nfepnj-M1rNJ-nhj4r3-wzHBDM-Hy2ZV5-2XMhZp-nfepVo-ngZuQ4-VhefZD-6hat1q-MpiKe-jWk66Z-6hascL-ngZrR9-oTheKL"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

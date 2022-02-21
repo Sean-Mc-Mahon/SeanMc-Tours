@@ -32,9 +32,39 @@ const Burren = () => {
             >
               <SwiperSlide>
                 <img className="location-image" src={Burren1} alt="Burren" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>The Burren</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/87129989@N00/29593909647/in/photolist-M67wiv-ycNumJ-2cUqHks-AzRYyK-GKWSvQ-7aWRvn-Xrrq1M-7wTF6s-66L2vz-7Ub8Zn-z7Kc-4pFqVR-ffByRb-5qNTzp-pNRKy-9yjuf1-8SJXn-2mnDNBH-5qNSUt-ffnkoe-5qTbFu-2wme1-5qNNmK-8dnL9v-5qTb3S-g7oLUW-amCN2-4Gb3LC-6ZS3qc-oEMLqw-5qTcj1-oEMQnE-5qNUd8-oWViNq-8eUmf8-4daG87-oEB1aE-67ZNUA-HFq1k-ookbS3-oGzi2g-ookwTV-oEMNf3-oEPvYK-oCMFEA-9Qc9sY-aWHaaV-oGzhri-9rAtei-oojW1F"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img className="location-image" src={Burren2} alt="Burren" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>The Burren</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/larrywkoester/15453685540/in/photolist-pxAbj9-oGzoMK-8eccRn-4wrf4G-oojXta-AdGpA-83dAeN-9u8Rq7-8ecdHZ-oojYhK-8F5roR-8szXK7-oEB3eE-68Qmgq-oojKij-32Kjxc-ooktWx-ookuGR-8eXCKb-ook8QG-68Qjww-7KMxTS-oojKe1-5Kkebm-4YWfAM-Tyerb9-oExTut-6eViAQ-ooktDZ-68QhCs-5hxJJq-68QiH7-7hYwWG-5ThgFc-oExUvB-67rFVy-ooktg4-PRBin9-85unYk-oojJZU-68L5te-oEPvbn-4d6Gwt-8eXCDQ-68L5EF-68QkDb-oExYoM-AdGrf-AdGtP-32JSHn"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

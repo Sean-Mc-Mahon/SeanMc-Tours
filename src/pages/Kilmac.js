@@ -37,6 +37,21 @@ const Kilmac = () => {
                   src={Kilmac1}
                   alt="Kilmacduagh"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Kilmacduagh</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/141866597@N06/36005526774/in/photolist-WRFJGo-2jnB17b-EmLxuM-2F39V-SuWN29-5v7ML8-689PWf-4P5cRz-2jnAZvM-4MU4dY-mGKXa-4MTYUs-2DNRTV-R5VUd2-8ANZtK-ahkV8r-53ULnY-VqLvLC-4sTxn6-4sXBQf-Ltti2x-mHwjV-artS93-5qrt2t-j8nyH1-arrcHa-2jnzRuC-mHwe4-mHxx1-mHxAH-mHw84-mHxxY-pbEam-RGG6Sn-mHw9y-mHxqE-6yeE2E-xkwJEB-wFae96-2jnwWyy-xC2Ta4-wFaiXp-BmubX-xzHhmA-2do7SDJ-PGu8JH-2do7QWA-PGu7YK-7strAR-8Dz6tU"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -44,6 +59,21 @@ const Kilmac = () => {
                   src={Kilmac2}
                   alt="Kilmacduagh"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Kilmacduagh</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/jenniferboyer/7172465955/in/photolist-2gzvwUn-2gzv3HB-R1G8na-2gzvq55-4sXBMb-kg5w4-kg5w3-kg5w2-2gzvxDJ-bVNDkV-bVNCRi-bVNH1P-cdb4xh-cdaWCW-bVNLf8-bVNC6p-cdb2XU-cdaW4b-cdaXew-bVNJb4-cdaYSj-bVNHCZ-cdb2iL-bVNFKr-4sXBPj-2i4c7DK-Cz8TYL-nrs7ec-pDa4N2-pCSN3n-cdb5S7-pmEkkG-pmDWGs-pmEH6K-pD84mb-pmD6AF-21QqwYe-2esg77a-2eDtsJw-21Qp9KD-7QgAUU-7QgAUo-7QgAMW-7QgB4s-7QdgEM-7QdgNt-7QdgzK-7QgAYL-7QdgK2-7QdgDc"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -51,6 +81,21 @@ const Kilmac = () => {
                   src={Kilmac3}
                   alt="Kilmacduagh"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Kilmacduagh</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/conall/51625709736/in/photolist-2mDZfTJ-2gzvwUn-R1G8na-2gzvq55-2gzvxDJ-4sTxn6-4sXBQf-2gzv3HB-4sXBMb-kg5w4-kg5w3-kg5w2-bVNDkV-bVNCRi-bVNH1P-cdb4xh-cdaWCW-bVNLf8-bVNC6p-cdb2XU-cdaW4b-cdaXew-bVNJb4-cdaYSj-bVNHCZ-2esg77a-2eDtsJw-21Qp9KD-cdb2iL-bVNFKr-4sXBPj-2i4c7DK-Cz8TYL-nrs7ec-pDa4N2-pCSN3n-cdb5S7-pmEkkG-pmDWGs-pmEH6K-pD84mb-pmD6AF-21QqwYe-7QgAUU-7QgAUo-7QgAMW-7QgB4s-7QdgEM-7QdgNt-7QdgzK"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

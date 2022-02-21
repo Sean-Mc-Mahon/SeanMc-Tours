@@ -37,6 +37,21 @@ const Kilkenny = () => {
                   src={Kilkenny1}
                   alt="Kilkenny"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Kilkenny Castle</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/bgwashburn/14606146236/in/photolist-ofGjpw-ohJiKi-oiLhYV-FiqLik-akcfiM-akcj1p-akcjgM-21WASHZ-dxkbMu-oAXE1i-oTqYt3-oiRL3Y-oRqCAJ-deJsGz-oAXL1V-KdKRtR-dsTG4x-ohHdZ8-5fRU94-MZEAwL-28kfqsg-dsTNFW-bAvXD6-L26WxR-dxeJHe-ehmcKd-dxkcQJ-23cvf1U-GDPTDq-Qeaisc-95bW3X-2cADQ9v-5NfSPz-qXibiu-dxeFwc-2bAepuq-ay7zSP-2dUPz4b-RRqoXh-TUnKWq-Qea7Qa-2bdNHK5-2bAepR7-2cADYS2-MZExEy-2cTrZZU-ay7zMz-TUnK2j-oFqgqr-294jAUw"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -44,6 +59,21 @@ const Kilkenny = () => {
                   src={Kilkenny2}
                   alt="Kilkenny"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>St. Canice's Cathedral</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/infomatique/14394285139/in/photolist-nVYttZ-xiY1oK-YqTZ6u-25fCUkR-23TcsEa-pLf8KJ-H3Gmsu-22w1wbu-hi8QjM-pS8rdU-dyq8KW-MkSwGy-Yt4CnZ-6hc8pj-fvk9Kh-5vZYeT-6hc8nj-qV8s6b-nVYtRb-jeXKWu-rv4cqJ-Tjh7FR-23J5JEx-fCmEza-fHA4cm-fCK1dL-5kRnnR-fCK1fb-fJnLqT-b89nL-pRZ4K9-kov3g-LKHmaw-GXmvoi-TjhcRa-6SNsmc-ac14rw-33KHc5-UxRANx-6T3HrR-774cGG-22PVE63-25xscmU-29vFTtA-aijqFj-fJfqmu-JKfUa-a2YTpi-9Xxyo1-fv5UoD"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -51,6 +81,21 @@ const Kilkenny = () => {
                   src={Kilkenny3}
                   alt="Kilkenny"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>St. Canice's Cathedral</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/tomchatt/37026588702/in/photolist-YpUWQo-dWco9t-2y5bhV-fuPKtC-JivmXV-bfBZnZ-JijfD5-2b6FPo5-rybsVD-8wZjw2-c7MbCJ-2fkMU8t-nVYttZ-xiY1oK-YqTZ6u-25fCUkR-23TcsEa-pLf8KJ-H3Gmsu-22w1wbu-hi8QjM-pS8rdU-dyq8KW-MkSwGy-Yt4CnZ-6hc8pj-fvk9Kh-5vZYeT-6hc8nj-qV8s6b-nVYtRb-jeXKWu-rv4cqJ-Tjh7FR-23J5JEx-fCmEza-fHA4cm-fCK1dL-5kRnnR-fCK1fb-fJnLqT-b89nL-pRZ4K9-kov3g-LKHmaw-GXmvoi-TjhcRa-6SNsmc-ac14rw-33KHc5"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>

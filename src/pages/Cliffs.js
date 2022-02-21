@@ -37,6 +37,21 @@ const Cliffs = () => {
                   src={Cliffs1}
                   alt="Cliffs of Moher"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Cliffs of Moher</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.flickr.com/photos/123824833@N02/36952667845/in/photolist-Yio5JR-mJA9n4-qNpNrz-e2Fnje-c1NUqj-28vzsgx-6JMkJP-mJA6rM-qNuFuQ-q4k9Qj-mJBSfm-Y3gTf7-5wF5cV-mJA9Tz-615Zud-5wF5de-4jZwsg-29PeY49-Y9SKQm-YYNma4-L8AFvZ-apYBHj-ook5vz-6JRqrN-28vzv46-apYNJC-edDmm6-apYMib-apVWCV-apYEKw-b8JsF-oGyTyV-JDrMDk-bVPu2k-nQv7Lq-bVPuZK-JjXMb1-cdbNkJ-nhJPVw-3misdF-qsg14v-Hi4ee-6v66zV-apW5jn-5AHZX5-6JRqTm-5tjUsa-mJA5vP-kuUrs4-oEAxbQ"
+                    >
+                      Flickr
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -44,6 +59,21 @@ const Cliffs = () => {
                   src={Cliffs2}
                   alt="Cliffs of Moher"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Cliffs of Moher</em>
+                  </div>
+                  <div className="photo-link">
+                    Source:
+                    <a
+                      rel="noopener"
+                      target={"blank"}
+                      href="https://www.pexels.com/photo/aerial-photography-of-rock-next-to-water-body-2382681/"
+                    >
+                      Pexels
+                    </a>
+                  </div>
+                </div>
               </SwiperSlide>
               <SwiperSlide>
                 <img
@@ -51,6 +81,12 @@ const Cliffs = () => {
                   src={Cliffs3}
                   alt="Cliffs of Moher"
                 />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Cliffs of Moher</em>
+                  </div>
+                  <div className="photo-link">Source: Author's Own</div>
+                </div>
               </SwiperSlide>
             </Swiper>
           </Col>
