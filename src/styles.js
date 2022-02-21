@@ -82,7 +82,7 @@ export const InfoPages = styled(motion.div)`
   a {
     color: var(--green);
     font-weight: bolder;
-    text-decoration: underline;
+    text-decoration: none;
   }
 `;
 
