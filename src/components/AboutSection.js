@@ -38,6 +38,15 @@ const aboutSection = () => {
                 <Hide>
                   <motion.h2 variants={titleAnim}>come with me!</motion.h2>
                 </Hide>
+                <Hide>
+                  <motion.p variants={titleAnim}>
+                    I've been a tour guide with Finn McCools Tours since 2019. I
+                    love to show people the best of what Ireland has to offer
+                    and teach them a thing or two along the way. My tours are a
+                    crash course in all things Irish, the history, culture,
+                    food, music, sport and anything else you want to know about.{" "}
+                  </motion.p>
+                </Hide>
               </motion.div>
             </HomeDescription>
           </Col>

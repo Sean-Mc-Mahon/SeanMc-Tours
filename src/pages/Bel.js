@@ -45,26 +45,25 @@ const Bel = () => {
           <Col xl={6} className="description">
             <h2 className="location-name">Belfast</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              obcaecati numquam velit a consequatur asperiores, neque non maxime
-              vitae odit necessitatibus repellat libero? Iure, enim sunt tempore
-              atque impedit quaerat at iste esse molestiae perspiciatis odio
-              molestias voluptatibus quod! Dicta officiis commodi quia quas
-              nesciunt veritatis accusamus, quam laborum voluptates.
+              Belfast is the only city in Ireland to properly experience the
+              industrial revolution. The main industries at the time were linen
+              and shipbuilding. Belfast benefitted greatly from the outbreak of
+              the American Civil War which disrupted the flow of cotton from
+              America to Europe.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              aspernatur amet distinctio magnam quae maxime, non optio
-              repellendus fugit delectus provident aperiam animi pariatur
-              commodi rem eum assumenda a voluptate blanditiis! Sed illo
-              voluptatum aut illum aliquam nobis quidem accusantium!
+              The Harland and Wolff shipyard was where the Titanic was built.
+              They were by far the largest employers in Belfast at the time and
+              only closed it's doors in 2019 after being in operation for over
+              150 years.
             </p>
             <p className="quote">
               <i>
                 <strong>
-                  " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cumque error accusamus quia quae ab nobis a modi at
-                  exercitationem nulla. "
+                  " Cave Hill, just north of Belfast, resembles a giant lying on
+                  it's back, facing the sky and is said to be the inspiration
+                  for Jonathon Swift's Gulliver's Travels, where Gulliver wakes
+                  up while being tied down by the lillyputians."
                 </strong>
               </i>
             </p>

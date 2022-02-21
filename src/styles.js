@@ -74,6 +74,11 @@ export const InfoPages = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  a {
+    color: var(--green);
+    font-weight: bolder;
+    text-decoration: underline;
+  }
 `;
 
 //Project Pages

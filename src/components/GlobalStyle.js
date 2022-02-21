@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
-    --yellow: #ffc107;
     --grey: #282828;
     --light-grey: #646464;
     --black: #1b1b1b;
@@ -18,6 +17,7 @@ html {
 }
 
 body{
+    position: relative;
     background: var(--white);
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
@@ -53,6 +53,10 @@ h4{
     font-weight: bold;
     font-size: 2rem;
     }
+h5{
+    font-weight: bold;
+    font-size: 1.7rem;
+    }
 a{
     font-size: 1.1rem;
     text-decoration: none;
@@ -67,7 +71,7 @@ span{
 p{
     padding: 0.5rem 0rem;
     color: var(--black);
-    font-size: calc(0.6rem + 1vw);
+    font-size: 18px;
     line-height: 125%;
     @media (min-width: 992px) {
       font-size: 20px;
@@ -200,6 +204,7 @@ p{
     ul{
         transform: translateX(0%) !important;
       }
+  /* Burger to 'X' animation */
   .line1{
     transform: rotate(-45deg) translate(-5px,6px)
   }
@@ -231,6 +236,8 @@ p{
   .top-nav {
     ul{
         transform: translateX(100%);
+        @media (min-width: 768px) {
+          opacity: 1;
       }
   @media (min-width: 768px) {
     transform: translateX(0%);

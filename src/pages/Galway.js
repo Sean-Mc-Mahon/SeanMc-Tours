@@ -45,26 +45,40 @@ const Galway = () => {
           <Col xl={6} className="description">
             <h2 className="location-name">Galway</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              obcaecati numquam velit a consequatur asperiores, neque non maxime
-              vitae odit necessitatibus repellat libero? Iure, enim sunt tempore
-              atque impedit quaerat at iste esse molestiae perspiciatis odio
-              molestias voluptatibus quod! Dicta officiis commodi quia quas
-              nesciunt veritatis accusamus, quam laborum voluptates.
+              With a population of 80 thousand Galway is the third largest city
+              in Ireland, about 10% of the population speak Irish which is much
+              higher than the national average. It is an extremely cultural city
+              and was even named the European capital of culture for 2020. It is
+              home to many festivals and it's streets are usually full of
+              musicians.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              aspernatur amet distinctio magnam quae maxime, non optio
-              repellendus fugit delectus provident aperiam animi pariatur
-              commodi rem eum assumenda a voluptate blanditiis! Sed illo
-              voluptatum aut illum aliquam nobis quidem accusantium!
+              Galway city is nicknamed 'The City of Tribes' after the 14
+              merchant families who led the ciy during the Hiberno-Norman
+              period, 12 of the families were Norman (French) and 2 were
+              Hibernian (Irish). During this period native Irish people were not
+              allowed to enter the city it was written into the town charter
+              that{" "}
+              <i>
+                {" "}
+                'neither O nor Mac shall strutte nor stride through the streets
+                of Galway without permission.'
+              </i>
+            </p>
+            <p>
+              The former fishing village of Cladagh is located just outside of
+              the city and is the home of the famous 'Cladagh Ring', the design
+              of which is two hands holding a heart with a crown above. The
+              hands symbolise friendship, the heart love and the crown loyalty.
             </p>
             <p className="quote">
               <i>
                 <strong>
-                  " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cumque error accusamus quia quae ab nobis a modi at
-                  exercitationem nulla. "
+                  " The Cladagh design is often attributed to Richard Joyce, an
+                  18th century goldsmith who was captured by Algerian pirates
+                  and sold as a slave. After 14 years Joyce was released and
+                  gave the ring which he designed while in captivity to his
+                  sweetheart. "
                 </strong>
               </i>
             </p>

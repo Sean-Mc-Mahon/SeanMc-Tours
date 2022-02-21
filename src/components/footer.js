@@ -11,7 +11,19 @@ const Footer = () => {
       <Container>
         <Row>
           <Col className="connect">
-            <h4>Connect</h4>
+            <h5>10% OFF</h5>
+            <p className="promo">
+              <strong>
+                Use code 'sean10' for 10% any tour with{" "}
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.finnmccoolstours.com/"
+                >
+                  Finn McCools Tours
+                </a>
+              </strong>
+            </p>
             <div className="social">
               <ul>
                 <li>
@@ -78,9 +90,6 @@ const StyledFooter = styled(motion.div)`
       align-items: center;
       justify-content: space-between;
       padding: 0.5rem 0;
-      @media (min-width: 768px) {
-        padding: 0;
-      }
     }
     .contact-details {
       @media (min-width: 768px) {
@@ -115,6 +124,9 @@ const StyledFooter = styled(motion.div)`
   a {
     font-size: 2.2rem;
   }
+  h5 {
+    margin: 0;
+  }
   h3,
   a,
   .phone,
@@ -125,6 +137,16 @@ const StyledFooter = styled(motion.div)`
       color: var(--green);
       -webkit-filter: drop-shadow(0px 0px 5px var(--green));
       filter: drop-shadow(0px 0px 5px var(--green));
+    }
+  }
+  .promo {
+    color: var(--white);
+    text-align: center;
+    padding: 0 1rem;
+    a {
+      font-size: calc(0.6rem + 1vw);
+      color: var(--green);
+      text-decoration: underline;
     }
   }
 `;
