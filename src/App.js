@@ -5,7 +5,6 @@ import GlobalStyle from "./components/GlobalStyle";
 import AboutUs from "./pages/AboutUs";
 import Food from "./pages/Food";
 import Reviews from "./pages/Reviews";
-import Work from "./components/Work";
 import MyTours from "./pages/MyTours";
 import MyMusic from "./pages/MyMusic";
 import West from "./pages/West";
@@ -48,7 +47,6 @@ function App() {
         {/* location and key needed for AnimatePresence */}
         <Routes location={location} key={location.pathname}>
           <Route path="/" exact element={<MyTours />}></Route>
-          <Route path="/work" exact element={<Work />}></Route>
           <Route path="/about" exact element={<AboutUs />}></Route>
           <Route path="/music" exact element={<MyMusic />}></Route>
           <Route path="/food" exact element={<Food />}></Route>
