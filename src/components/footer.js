@@ -101,6 +101,13 @@ const StyledFooter = styled(motion.div)`
   a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    @media (min-width: 992px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 22px;
+    }
   }
   .social {
     display: flex;
@@ -120,9 +127,6 @@ const StyledFooter = styled(motion.div)`
   li {
     position: relative;
     padding: 0 1rem;
-  }
-  a {
-    font-size: 2.2rem;
   }
   h5 {
     margin: 0;
@@ -144,7 +148,6 @@ const StyledFooter = styled(motion.div)`
     text-align: center;
     padding: 0 1rem;
     a {
-      font-size: calc(0.6rem + 1vw);
       color: var(--green);
       text-decoration: underline;
     }

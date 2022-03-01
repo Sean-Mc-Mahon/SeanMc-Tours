@@ -74,9 +74,17 @@ export const InfoPages = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (min-width: 1200px) {
+    padding: 1rem 0;
+  }
   h2 {
     color: var(--green);
     font-weight: bolder;
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+    @media (min-width: 1200px) {
+      padding: 1rem 0.5rem 0.5rem 0.5rem;
+    }
   }
 
   a {

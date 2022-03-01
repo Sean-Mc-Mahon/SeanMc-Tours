@@ -13,6 +13,7 @@ html {
     --black: #1b1b1b;
     --green: #047417;
     --white: #f8f9fa;
+    overflow-x: hidden;
 
 }
 
@@ -73,6 +74,7 @@ p{
     color: var(--black);
     font-size: 18px;
     line-height: 125%;
+    text-align: justify;
     @media (min-width: 992px) {
       font-size: 20px;
     }
@@ -83,6 +85,26 @@ p{
 .p-0{
     padding: 0;
 }
+
+/* equal height columns */
+.flexRow{
+  display: flex;
+  overflow: hidden;
+  @media (min-width: 1200px) {
+    .flexCol{
+      flex: 1;
+      }
+  }
+}
+
+/* spotify iframes */
+.spotify{
+  height: 300px;
+  @media (min-width: 1200px) {
+    height: 95%;
+  }
+}
+
 
 /* Photo Descriptions */
 .photo-description {
@@ -201,7 +223,7 @@ p{
     padding-bottom: 2.5rem;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 10%;
+    bottom: 15%;
 }
   .swiper-pagination-bullet {
     width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
