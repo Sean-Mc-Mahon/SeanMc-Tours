@@ -12,9 +12,15 @@ import {
 } from "../animation";
 //images
 import Glen1 from "../img/glen/glen_1.webp";
+import Glen1s from "../img/glen/glen_1s.webp";
+import Glen1m from "../img/glen/glen_1m.webp";
 import Gap1 from "../img/glen/gap_1.webp";
+import Gap1s from "../img/glen/gap_1s.webp";
+import Gap1m from "../img/glen/gap_1m.webp";
 import Farm1 from "../img/glen/farm_1.webp";
 import Kil1 from "../img/glen/kil_1.webp";
+import Kil1s from "../img/glen/kil_1s.webp";
+import Kil1m from "../img/glen/kil_1m.webp";
 //Links
 import { Link } from "react-router-dom";
 
@@ -27,60 +33,72 @@ const East = () => {
       exit="exit"
     >
       <TourWrapper
+        id="glendalough-wrapper"
         variants={TourAnim}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <GlenWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/glen">
-            <div className="tour-title">
-              <h1>Glendalough</h1>
-            </div>
+            <img
+              src={Glen1s}
+              alt="Glendalough"
+              srcSet={`${Glen1s} 400w, ${Glen1m} 800w, ${Glen1} 1200w`}
+            />
+            <h1>Glendalough</h1>
           </Link>
-        </GlenWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="gap-wrapper"
         variants={TourAnim1}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <GapWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/gap">
-            <div className="tour-title">
-              <h1>Wicklow Mountains</h1>
-            </div>
+            <img
+              src={Gap1s}
+              alt="Gap"
+              srcSet={`${Gap1s} 400w, ${Gap1m} 800w, ${Gap1} 1200w`}
+            />
+            <h1>Wicklow Mountains</h1>
           </Link>
-        </GapWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="farm-wrapper"
         variants={TourAnim2}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <FarmWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/farm">
-            <div className="tour-title">
-              <h1>Sheepdog Demonstration</h1>
-            </div>
+            <img src={Farm1} alt="Farm" />
+            <h1>Sheepdog Demonstration</h1>
           </Link>
-        </FarmWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="kilkenny-wrapper"
         variants={TourAnim3}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <KilWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/kil">
-            <div className="tour-title">
-              <h1>Kilkenny</h1>
-            </div>
+            <img
+              src={Kil1s}
+              alt="Kilkenny"
+              srcSet={`${Kil1s} 400w, ${Kil1m} 800w, ${Kil1} 1200w`}
+            />
+            <h1>Kilkenny</h1>
           </Link>
-        </KilWrapper>
+        </div>
       </TourWrapper>
     </motion.div>
   );
@@ -89,36 +107,6 @@ const East = () => {
 const TourWrapper = styled(motion.div)`
   height: 22.5vh;
   overflow: hidden;
-`;
-
-const GlenWrapper = styled(motion.div)`
-  width: 100%;
-  height: 100%;
-  background-image: url(${Glen1});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease-in-out;
-  :hover {
-    transform: scale(1.1);
-  }
-
-  h1 {
-    color: var(--white);
-    margin: 0;
-  }
-`;
-
-const GapWrapper = styled(GlenWrapper)`
-  background-image: url(${Gap1});
-`;
-
-const FarmWrapper = styled(GlenWrapper)`
-  background-image: url(${Farm1});
-`;
-
-const KilWrapper = styled(GlenWrapper)`
-  background-image: url(${Kil1});
 `;
 
 export default East;

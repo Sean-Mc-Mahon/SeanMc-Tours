@@ -6,8 +6,14 @@ import { motion } from "framer-motion";
 import { pageAnimation, TourAnim, TourAnim1, TourAnim2 } from "../animation";
 //images
 import Cliffs1 from "../img/cliffs/cliffs_1.webp";
+import Cliffs1s from "../img/cliffs/cliffs_1s.webp";
+import Cliffs1m from "../img/cliffs/cliffs_1m.webp";
 import Cwy1 from "../img/cwy/cwy_1.webp";
+import Cwy1s from "../img/cwy/cwy_1s.webp";
+import Cwy1m from "../img/cwy/cwy_1m.webp";
 import Glen1 from "../img/glen/glen_1.webp";
+import Glen1s from "../img/glen/glen_1s.webp";
+import Glen1m from "../img/glen/glen_1m.webp";
 //Links
 import { Link } from "react-router-dom";
 
@@ -25,14 +31,17 @@ const MyTours = () => {
         animate="show"
         exit="exit"
       >
-        <CliffsWrapper>
+        <CliffsWrapper className="image-wrapper">
           <Link className="link" to="/west">
-            <div className="tour-title">
-              <h1>
-                Cliffs of Moher
-                <br />& Galway
-              </h1>
-            </div>
+            <img
+              src={Cliffs1s}
+              alt="Cliffs"
+              srcSet={`${Cliffs1s} 400w, ${Cliffs1m} 800w, ${Cliffs1} 1200w`}
+            />
+            <h1>
+              Cliffs of Moher
+              <br />& Galway
+            </h1>
           </Link>
         </CliffsWrapper>
       </TourWrapper>
@@ -42,14 +51,17 @@ const MyTours = () => {
         animate="show"
         exit="exit"
       >
-        <CwyWrapper>
+        <CwyWrapper className="image-wrapper">
           <Link className="link" to="/north">
-            <div className="tour-title">
-              <h1>
-                Giant's Causeway
-                <br />& Belfast
-              </h1>
-            </div>
+            <img
+              src={Cwy1s}
+              alt="Causeway"
+              srcSet={`${Cwy1s} 400w, ${Cwy1m} 800w, ${Cwy1} 1200w`}
+            />
+            <h1>
+              Giant's Causeway
+              <br />& Belfast
+            </h1>
           </Link>
         </CwyWrapper>
       </TourWrapper>
@@ -59,14 +71,17 @@ const MyTours = () => {
         animate="show"
         exit="exit"
       >
-        <GlenWrapper>
+        <GlenWrapper className="image-wrapper">
           <Link className="link" to="/east">
-            <div className="tour-title">
-              <h1>
-                Glendalough
-                <br />& Kilkenny
-              </h1>
-            </div>
+            <img
+              src={Glen1s}
+              alt="Glendalough"
+              srcSet={`${Glen1s} 400w, ${Glen1m} 800w, ${Glen1} 1200w`}
+            />
+            <h1>
+              Glendalough
+              <br />& Kilkenny
+            </h1>
           </Link>
         </GlenWrapper>
       </TourWrapper>
@@ -79,29 +94,10 @@ const TourWrapper = styled(motion.div)`
   overflow: hidden;
 `;
 
-const CliffsWrapper = styled(motion.div)`
-  width: 100%;
-  height: 100%;
-  background-image: url(${Cliffs1});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease-in-out;
-  :hover {
-    transform: scale(1.1);
-  }
-  h1 {
-    color: var(--white);
-    margin: 0;
-  }
-`;
+const CliffsWrapper = styled(motion.div)``;
 
-const CwyWrapper = styled(CliffsWrapper)`
-  background-image: url(${Cwy1});
-`;
+const CwyWrapper = styled(CliffsWrapper)``;
 
-const GlenWrapper = styled(CliffsWrapper)`
-  background-image: url(${Glen1});
-`;
+const GlenWrapper = styled(CliffsWrapper)``;
 
 export default MyTours;

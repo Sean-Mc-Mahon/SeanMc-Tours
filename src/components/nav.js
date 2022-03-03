@@ -106,7 +106,7 @@ const StyledNav = styled.nav`
   align-items: center;
   justify-content: center;
   padding-bottom: 0.5rem;
-  min-height: 10vh;
+  height: 10vh;
   margin: auto;
   justify-content: space-between;
   align-items: center;

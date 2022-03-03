@@ -14,6 +14,7 @@ html {
     --green: #047417;
     --white: #f8f9fa;
     overflow-x: hidden;
+    height: 100%;
 
 }
 
@@ -124,23 +125,41 @@ p{
   }
 
 /* Tour Pages */
-.tour-title {
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  img {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+  }
+  h1 {
+    position: absolute;
+    text-shadow: 0px 0px 5px var(--black);
+    background: rgba(0.5, 0.5, 0.5, 0.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: all 0.5s ease-in-out;
-    :hover {
-      background: rgba(4, 116, 23, 0.8);
-      h1 {
-        text-shadow: 0px 0px 5px var(--black);
-      }
+  }
+  transition: all 0.5s ease-in-out;
+  :hover {
+    transform: scale(1.1);
+    h1 {
+      transition: all 0.7s ease-in-out;
+      background: rgba(4, 116, 23, 0.6);
     }
+  }
+  h1 {
+    color: var(--white);
+    margin: 0;
+  }
   }
 
 /* Location Pages */

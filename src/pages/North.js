@@ -12,9 +12,17 @@ import {
 } from "../animation";
 //images
 import Dun1 from "../img/cwy/dun_1.webp";
+import Dun1s from "../img/cwy/dun_1s.webp";
+import Dun1m from "../img/cwy/dun_1m.webp";
 import Cwy1 from "../img/cwy/cwy_1.webp";
+import Cwy1s from "../img/cwy/cwy_1s.webp";
+import Cwy1m from "../img/cwy/cwy_1m.webp";
 import Dark1 from "../img/cwy/dark_1.webp";
+import Dark1s from "../img/cwy/dark_1s.webp";
+import Dark1m from "../img/cwy/dark_1m.webp";
 import Bel1 from "../img/cwy/bel_1.webp";
+import Bel1s from "../img/cwy/bel_1s.webp";
+import Bel1m from "../img/cwy/bel_1m.webp";
 //Links
 import { Link } from "react-router-dom";
 
@@ -27,60 +35,76 @@ const North = () => {
       exit="exit"
     >
       <TourWrapper
+        id="duluce-wrapper"
         variants={TourAnim}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <DunWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/dun">
-            <div className="tour-title">
-              <h1>Dunluce Castle</h1>
-            </div>
+            <img
+              src={Dun1s}
+              alt="Dunluce"
+              srcSet={`${Dun1s} 400w, ${Dun1m} 800w, ${Dun1} 1200w`}
+            />
+            <h1>Dunluce Castle</h1>
           </Link>
-        </DunWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="causeway-wrapper"
         variants={TourAnim1}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <CwyWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/cwy">
-            <div className="tour-title">
-              <h1>Giant's Causeway</h1>
-            </div>
+            <img
+              src={Cwy1s}
+              alt="Causeway"
+              srcSet={`${Cwy1s} 400w, ${Cwy1m} 800w, ${Cwy1} 1200w`}
+            />
+            <h1>Giant's Causeway</h1>
           </Link>
-        </CwyWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="dark-wrapper"
         variants={TourAnim2}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <DarkWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/dark">
-            <div className="tour-title">
-              <h1>Dark Hedges</h1>
-            </div>
+            <img
+              src={Dark1s}
+              alt="Dark Hedges"
+              srcSet={`${Dark1s} 400w, ${Dark1m} 800w, ${Dark1} 1200w`}
+            />
+            <h1>Dark Hedges</h1>
           </Link>
-        </DarkWrapper>
+        </div>
       </TourWrapper>
       <TourWrapper
+        id="belfast-wrapper"
         variants={TourAnim3}
         initial="hidden"
         animate="show"
         exit="exit"
       >
-        <BelWrapper>
+        <div className="image-wrapper">
           <Link className="link" to="/bel">
-            <div className="tour-title">
-              <h1>Belfast</h1>
-            </div>
+            <img
+              src={Bel1s}
+              alt="Belfast"
+              srcSet={`${Bel1s} 400w, ${Bel1m} 800w, ${Bel1} 1200w`}
+            />
+            <h1>Belfast</h1>
           </Link>
-        </BelWrapper>
+        </div>
       </TourWrapper>
     </motion.div>
   );
@@ -89,36 +113,6 @@ const North = () => {
 const TourWrapper = styled(motion.div)`
   height: 22.5vh;
   overflow: hidden;
-`;
-
-const DunWrapper = styled(motion.div)`
-  width: 100%;
-  height: 100%;
-  background-image: url(${Dun1});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease-in-out;
-  :hover {
-    transform: scale(1.1);
-  }
-
-  h1 {
-    color: var(--white);
-    margin: 0;
-  }
-`;
-
-const CwyWrapper = styled(DunWrapper)`
-  background-image: url(${Cwy1});
-`;
-
-const DarkWrapper = styled(DunWrapper)`
-  background-image: url(${Dark1});
-`;
-
-const BelWrapper = styled(DunWrapper)`
-  background-image: url(${Bel1});
 `;
 
 export default North;
