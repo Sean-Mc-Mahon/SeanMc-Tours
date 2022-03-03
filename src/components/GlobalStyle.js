@@ -258,6 +258,9 @@ p{
   }
 
   /* Navigation burger classes */
+  body.burger-active{
+    overflow: hidden;
+  }
   .burger-active {
     ul{
         transform: translateX(0%) !important;

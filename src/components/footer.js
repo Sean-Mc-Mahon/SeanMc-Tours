@@ -24,37 +24,6 @@ const Footer = () => {
                 </a>
               </strong>
             </p>
-            <div className="social">
-              <ul>
-                <li>
-                  <a
-                    rel="noopener"
-                    target={"blank"}
-                    href="https://github.com/Sean-Mc-Mahon"
-                  >
-                    <i className="devicon-github-original"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    rel="noopener"
-                    target={"blank"}
-                    href="https://www.linkedin.com/in/sean-mcmahon-profile/"
-                  >
-                    <i className="devicon-linkedin-plain"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    rel="noopener"
-                    target={"blank"}
-                    href="https://codepen.io/McTastic"
-                  >
-                    <i className="devicon-codepen-plain"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
           </Col>
         </Row>
       </Container>
