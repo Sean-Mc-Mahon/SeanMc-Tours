@@ -9,11 +9,11 @@ const Nav = () => {
 
   const BurgerClick = () => {
     openBurger ? setOpenBurger(false) : setOpenBurger(true);
-    if (openBurger) {
-      body.style.position = "relative";
-    } else {
-      body.style.position = "fixed";
-    }
+    // if (openBurger) {
+    //   body.style.position = "static";
+    // } else {
+    //   body.style.position = "fixed";
+    // }
   };
 
   return (
@@ -139,7 +139,7 @@ const StyledNav = styled.nav`
   ul {
     position: absolute;
     right: 0px;
-    height: 90vh;
+    /* height: 90vh; */
     top: 10vh;
     background-color: var(--white);
     display: flex;
@@ -190,7 +190,7 @@ const StyledNav = styled.nav`
   }
   li {
     position: relative;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     /* opacity: 0; */
     /* @media (min-width: 768px) {
     opacity: 1;

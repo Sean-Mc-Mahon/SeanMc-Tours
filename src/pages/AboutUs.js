@@ -1,7 +1,7 @@
 import React from "react";
 //Page Components
 import AboutSection from "../components/AboutSection";
-import FaqSection from "../components/FaqSection";
+// import FaqSection from "../components/FaqSection";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
@@ -21,7 +21,7 @@ const AboutUs = () => {
       <AboutSection>
         <span className="anchor" id="top"></span>
       </AboutSection>
-      <FaqSection />
+      {/* <FaqSection /> */}
     </motion.div>
   );
 };
