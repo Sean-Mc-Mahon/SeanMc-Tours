@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 //Animations
 import { motion } from "framer-motion";
+import ScrollTop from "../components/ScrollTop";
 // Swiper React components
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,6 +21,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Galway = () => {
   return (
     <motion.div>
+      <ScrollTop />
       <Container fluid>
         <Row className="image-description">
           <Col xl={6} className="image">

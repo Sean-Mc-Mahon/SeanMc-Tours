@@ -4,9 +4,13 @@ import { InfoPages } from "../styles";
 import { Container, Row, Col } from "react-bootstrap";
 //Spotify Player Iframe
 import Iframe from "react-iframe";
+//Animations
+import ScrollTop from "../components/ScrollTop";
+
 const MyMusic = () => {
   return (
     <InfoPages>
+      <ScrollTop />
       <Container>
         <h2>Modern Irish</h2>
         <Row className="flexRow">

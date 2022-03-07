@@ -10,6 +10,7 @@ import {
   TourAnim2,
   TourAnim3,
 } from "../animation";
+import ScrollTop from "../components/ScrollTop";
 //images
 import Cliffs2 from "../img/cliffs/cliffs_2.webp";
 import Cliffs2s from "../img/cliffs/cliffs_2s.webp";
@@ -34,6 +35,7 @@ const West = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <TourWrapper
         id="moher-wrapper"
         variants={TourAnim}

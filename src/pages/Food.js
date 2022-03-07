@@ -13,10 +13,13 @@ import "swiper/css/scrollbar";
 import Breakfast from "../img/other/breakfast.webp";
 import Fish from "../img/other/fish.webp";
 import Oysters from "../img/other/oysters.webp";
+//Animations
+import ScrollTop from "../components/ScrollTop";
 
 const Food = () => {
   return (
     <InfoPages>
+      <ScrollTop />
       <Container>
         <Row>
           <Col xl={6} className="image">

@@ -10,6 +10,7 @@ import {
   TourAnim2,
   TourAnim3,
 } from "../animation";
+import ScrollTop from "../components/ScrollTop";
 //images
 import Dun1 from "../img/cwy/dun_1.webp";
 import Dun1s from "../img/cwy/dun_1s.webp";
@@ -34,6 +35,7 @@ const North = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <TourWrapper
         id="duluce-wrapper"
         variants={TourAnim}

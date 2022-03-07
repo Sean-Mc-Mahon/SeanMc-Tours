@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 //Animations
 import { motion } from "framer-motion";
+import ScrollTop from "../components/ScrollTop";
 // Swiper React components
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,6 +18,7 @@ import "swiper/css/scrollbar";
 const Reviews = () => {
   return (
     <InfoPages>
+      <ScrollTop />
       <ReviewPage>
         <Container className="reviews">
           <Row>

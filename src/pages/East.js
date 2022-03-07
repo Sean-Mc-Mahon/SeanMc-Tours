@@ -10,6 +10,7 @@ import {
   TourAnim2,
   TourAnim3,
 } from "../animation";
+import ScrollTop from "../components/ScrollTop";
 //images
 import Glen1 from "../img/glen/glen_1.webp";
 import Glen1s from "../img/glen/glen_1s.webp";
@@ -32,6 +33,7 @@ const East = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <TourWrapper
         id="glendalough-wrapper"
         variants={TourAnim}

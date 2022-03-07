@@ -44,7 +44,20 @@ const aboutSection = () => {
                     love to show people the best of what Ireland has to offer
                     and teach them a thing or two along the way. My tours are a
                     crash course in all things Irish, the history, culture,
-                    food, music, sport and anything else you want to know about.{" "}
+                    food, music, sport and anything else you want to know about.
+                  </motion.p>
+                  <motion.p variants={titleAnim}>
+                    I know that most people on my tours are only in Ireland for
+                    a few days so I try to give people as good an understanding
+                    as I can about what Ireland is all about, it's a crash
+                    course in all things Irish, the history, culture, food,
+                    music, sport and anything else you want to know about.
+                  </motion.p>
+                  <motion.p variants={titleAnim}>
+                    Please ask questions! Answering questions is the most
+                    interesting part of the tour for me as it gets me out of my
+                    usual routine. If you enjoyed the tour please consider
+                    leaving a review.
                   </motion.p>
                 </Hide>
               </motion.div>

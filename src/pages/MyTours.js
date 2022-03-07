@@ -4,6 +4,7 @@ import styled from "styled-components";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation, TourAnim, TourAnim1, TourAnim2 } from "../animation";
+import ScrollTop from "../components/ScrollTop";
 //images
 import Cliffs1 from "../img/cliffs/cliffs_1.webp";
 import Cliffs1s from "../img/cliffs/cliffs_1s.webp";
@@ -25,6 +26,7 @@ const MyTours = () => {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <TourWrapper
         variants={TourAnim}
         initial="hidden"
