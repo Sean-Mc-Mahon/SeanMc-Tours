@@ -3,6 +3,7 @@ import styled from "styled-components/macro";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { useScrollForward } from "./useScroll";
+import ContactUs from "./contactForm";
 
 const Footer = () => {
   const [element, controls] = useScrollForward();
@@ -10,7 +11,11 @@ const Footer = () => {
     <StyledFooter id="foot">
       <Container>
         <Row>
-          <Col className="connect">
+          <Col md={6} className="contact-details">
+            <h4>Song Requests</h4>
+            <ContactUs />
+          </Col>
+          <Col md={6} className="connect">
             <h5>10% OFF</h5>
             <p className="promo">
               <strong>
@@ -57,7 +62,7 @@ const StyledFooter = styled(motion.div)`
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       padding: 0.5rem 0;
     }
     .contact-details {
