@@ -87,6 +87,32 @@ p{
     padding: 0;
 }
 
+img{
+  max-width: 100%;
+}
+
+.infoSwiper{
+  width: 100%;
+  height: auto;
+  .swiper-slide{
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  /* @media(min-width: 1200px){
+    width: 560px;
+    height: 420px;
+  }
+  } */
+}
+
+.green{
+  color: var(--green);
+}
+
 /* equal height columns */
 .flexRow{
   display: flex;

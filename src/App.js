@@ -3,6 +3,7 @@ import GlobalStyle from "./components/GlobalStyle";
 
 //Import Pages
 import AboutUs from "./pages/AboutUs";
+import Dublin from "./pages/Dublin";
 import Food from "./pages/Food";
 import Reviews from "./pages/Reviews";
 import MyTours from "./pages/MyTours";
@@ -66,6 +67,7 @@ function App() {
           <Route path="/gap" exact element={<Gap />}></Route>
           <Route path="/farm" exact element={<Farm />}></Route>
           <Route path="/kil" exact element={<Kil />}></Route>
+          <Route path="/dublin" exact element={<Dublin />}></Route>
         </Routes>
       </AnimatePresence>
       <Footer />

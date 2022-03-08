@@ -72,6 +72,11 @@ const Nav = () => {
           </Link>
         </li>
         <li onClick={BurgerClick}>
+          <Link className="link" to="/Dublin">
+            Dublin
+          </Link>
+        </li>
+        <li onClick={BurgerClick}>
           <Link className="link" to="/about">
             About
           </Link>
@@ -201,7 +206,7 @@ const StyledNav = styled.nav`
   }
   @media (min-width: 1200px) {
     li {
-      padding-left: 10rem;
+      padding-left: 5rem;
     }
   }
 `;

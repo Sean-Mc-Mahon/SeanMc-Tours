@@ -41,6 +41,44 @@ const Reviews = () => {
                   },
                 }}
               >
+                <SwiperSlide className="flexCol">
+                  <Review className="review">
+                    <h4 className="review-title">
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      ...Everything was made special thanks to Sean's
+                      explanations full of curiosities and Irish songs in the
+                      background! A real immersion in the culture of this
+                      country!! Sean was also really helpful in giving any
+                      advice and Marco was an impeccable driver, even in the
+                      most difficult corners!...
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>Giulia</strong> (March 22)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
+                        >
+                          Get Your Guide
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
                 <SwiperSlide className="flexReview">
                   <Review className="review">
                     <h4 className="review-title">
@@ -112,43 +150,7 @@ const Reviews = () => {
                     </div>
                   </Review>
                 </SwiperSlide>
-                <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      Fabulous{" "}
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      Had a lot of fun on the tour💯. Especially the hike at
-                      Giants causeway! Take the longer path, it's more fun and
-                      you'll get more scenic sights. Sean and Fergus were an
-                      amazing and friendly duo. Absolutely recommend.
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Faheim Arslan</strong> (Oct 21)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
-                        >
-                          Tripadvisor
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
+
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
@@ -192,8 +194,10 @@ const Reviews = () => {
               <p>
                 As an independant contractor you're reviews are hugely
                 important. If you enjoyed your tour I'd love to hear your
-                feedback. You can leave a review at:
+                feedback (Please remember to mention my name and the driver's
+                name). You can leave a review at:
               </p>
+              <hr />
               <p>
                 <a
                   rel="noopener"
@@ -203,15 +207,40 @@ const Reviews = () => {
                   Tripadvisor
                 </a>
               </p>
+
+              <hr />
               <p>
                 <a
                   rel="noopener"
                   target={"blank"}
                   href="https://www.getyourguide.com/dublin-l31/giant-s-causeway-full-day-tour-from-dublin-t67953/"
                 >
-                  Get Your Guide
+                  Get Your Guide (Causeway Tour)
                 </a>
               </p>
+
+              <hr />
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
+                >
+                  Get Your Guide (Cliffs Tour)
+                </a>
+              </p>
+              <hr />
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.getyourguide.com/dublin-l31/glendalough-wicklow-kilkenny-sheep-dog-trails-t131067/"
+                >
+                  Get Your Guide (Glendalough Tour)
+                </a>
+              </p>
+
+              <hr />
               <p>
                 <a
                   rel="noopener"
@@ -221,6 +250,8 @@ const Reviews = () => {
                   Google
                 </a>
               </p>
+
+              <hr />
               <p>
                 <a
                   rel="noopener"
