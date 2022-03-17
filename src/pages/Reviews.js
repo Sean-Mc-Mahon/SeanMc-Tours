@@ -79,7 +79,77 @@ const Reviews = () => {
                     </div>
                   </Review>
                 </SwiperSlide>
+                <SwiperSlide className="flexCol">
+                  <Review className="review">
+                    <h4 className="review-title">
+                      Great experience with Sean and Brian
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      ...Sean was an amazing guide, he gave us tons of
+                      interesting info throughout the tour....
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>Paige L</strong> (March 22)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-Finn_McCools_Tours-Dublin_County_Dublin.html"
+                        >
+                          Get Your Guide
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
                 <SwiperSlide className="flexReview">
+                  <Review className="review">
+                    <h4 className="review-title">
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      Sean and Thomas were very kind and accommodating to
+                      everyone on board. Sean’s commentary was entertaining and
+                      easy to follow- would recommend!
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>Gina_T,</strong> (March 22)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.viator.com/en-IE/tours/Dublin/Giants-Causeway-and-Carrick-a-Rede-Rope-Bridge-Day-Trip-from-Dublin/d503-7572P2"
+                        >
+                          Tripadvisor
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
+                {/* <SwiperSlide className="flexReview">
                   <Review className="review">
                     <h4 className="review-title">
                       Beautiful and factfull{" "}
@@ -150,7 +220,6 @@ const Reviews = () => {
                     </div>
                   </Review>
                 </SwiperSlide>
-
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
@@ -189,7 +258,7 @@ const Reviews = () => {
                       </small>
                     </div>
                   </Review>
-                </SwiperSlide>
+                </SwiperSlide> */}
               </Swiper>
               <p>
                 As an independant contractor you're reviews are hugely
@@ -258,7 +327,17 @@ const Reviews = () => {
                   target={"blank"}
                   href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-The-Burren-and-Galway-Day-Trip-from-Dublin/d503-7572P3"
                 >
-                  Viator
+                  Viator (Cliffs Tour)
+                </a>
+              </p>
+              <hr />
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.viator.com/en-IE/tours/Dublin/Giants-Causeway-and-Carrick-a-Rede-Rope-Bridge-Day-Trip-from-Dublin/d503-7572P2"
+                >
+                  Viator (Causeway Tour)
                 </a>
               </p>
             </Col>

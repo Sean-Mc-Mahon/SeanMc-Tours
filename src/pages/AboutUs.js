@@ -18,9 +18,9 @@ const AboutUs = () => {
       exit="exit"
     >
       <ScrollTop />
-      <AboutSection>
-        <span className="anchor" id="top"></span>
-      </AboutSection>
+      import AboutSection from "../components/AboutSection";
+      <span className="anchor" id="top"></span>
+      <AboutSection />
       {/* <FaqSection /> */}
     </motion.div>
   );

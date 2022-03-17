@@ -1,4 +1,6 @@
 import React from "react";
+//About Section
+import AboutSection from "../components/AboutSection";
 //styled components
 import styled from "styled-components";
 //Animations
@@ -87,6 +89,7 @@ const MyTours = () => {
           </Link>
         </GlenWrapper>
       </TourWrapper>
+      <AboutSection />
     </motion.div>
   );
 };

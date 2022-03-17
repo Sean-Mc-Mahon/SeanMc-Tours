@@ -77,11 +77,6 @@ const Nav = () => {
           </Link>
         </li>
         <li onClick={BurgerClick}>
-          <Link className="link" to="/about">
-            About
-          </Link>
-        </li>
-        <li onClick={BurgerClick}>
           <Link className="link" to="/music">
             Music
           </Link>
