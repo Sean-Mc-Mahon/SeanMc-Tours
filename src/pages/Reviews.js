@@ -63,7 +63,7 @@ const Reviews = () => {
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Sunshine 228</strong> (March 19th '22)
+                        <strong>Sunshine 228</strong> (March 2022)
                       </div>
                       <small className="review-site">
                         {" "}
@@ -99,7 +99,7 @@ const Reviews = () => {
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Ana</strong> (March 20th '22)
+                        <strong>Ana</strong> (March 2022)
                       </div>
                       <small className="review-site">
                         {" "}
@@ -136,7 +136,7 @@ const Reviews = () => {
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Brenna Forde</strong> (March 20th '22)
+                        <strong>Brenna Forde</strong> (March 2022)
                       </div>
                       <small className="review-site">
                         {" "}
@@ -527,6 +527,7 @@ const Review = styled.div`
   .review-author {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   h4 {
     font-size: 20px;
