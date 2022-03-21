@@ -95,8 +95,11 @@ const MyTours = () => {
 };
 
 const TourWrapper = styled(motion.div)`
-  height: 30vh;
+  height: 28vh;
   overflow: hidden;
+  @media (min-width: 705px) {
+    height: 30vh;
+  }
 `;
 
 const CliffsWrapper = styled(motion.div)``;
