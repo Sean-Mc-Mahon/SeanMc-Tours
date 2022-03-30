@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe8baf23.css",
-    "main.js": "/static/js/main.d899f2fd.js",
+    "main.js": "/static/js/main.d71a0fb4.js",
     "static/js/787.00f9f084.chunk.js": "/static/js/787.00f9f084.chunk.js",
     "static/media/glen_1.webp": "/static/media/glen_1.a16e35033be327a3fe3e.webp",
     "static/media/gal_3.webp": "/static/media/gal_3.2789cb4624652578ba81.webp",
@@ -19,6 +19,7 @@
     "static/media/gap_1m.webp": "/static/media/gap_1m.51c5c6816c8084caf075.webp",
     "static/media/kil_1.webp": "/static/media/kil_1.96db02e605df64467c54.webp",
     "static/media/kilmac_2.webp": "/static/media/kilmac_2.689055728e6b50b4710e.webp",
+    "static/media/wild1.jpg": "/static/media/wild1.0589761f8710e4f418a8.jpg",
     "static/media/bel_2.webp": "/static/media/bel_2.e875d4ae3b4033558e85.webp",
     "static/media/wellington.jpg": "/static/media/wellington.2c21faada08f70ff3c11.jpg",
     "static/media/burren_2.webp": "/static/media/burren_2.89fb9611d3d7c4121cd8.webp",
@@ -91,11 +92,11 @@
     "static/media/dun_1s.webp": "/static/media/dun_1s.c4b08c66ad30afa5ff1c.webp",
     "index.html": "/index.html",
     "main.fe8baf23.css.map": "/static/css/main.fe8baf23.css.map",
-    "main.d899f2fd.js.map": "/static/js/main.d899f2fd.js.map",
+    "main.d71a0fb4.js.map": "/static/js/main.d71a0fb4.js.map",
     "787.00f9f084.chunk.js.map": "/static/js/787.00f9f084.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe8baf23.css",
-    "static/js/main.d899f2fd.js"
+    "static/js/main.d71a0fb4.js"
   ]
 }
