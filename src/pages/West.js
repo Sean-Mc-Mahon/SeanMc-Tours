@@ -1,4 +1,6 @@
 import React from "react";
+
+import Iframe from "react-iframe";
 //styled components
 import styled from "styled-components";
 //Animations
@@ -24,8 +26,11 @@ import Kilmac1m from "../img/cliffs/kilmac_1m.webp";
 import Gal1 from "../img/cliffs/gal_1.webp";
 import Gal1s from "../img/cliffs/gal_1s.webp";
 import Gal1m from "../img/cliffs/gal_1m.webp";
+import Wild from "../img/cliffs/wild1.jpg";
 //Links
 import { Link } from "react-router-dom";
+//bootstrap
+import { Container, Row, Col } from "react-bootstrap";
 
 const West = () => {
   return (
@@ -109,6 +114,93 @@ const West = () => {
           </Link>
         </div>
       </TourWrapper>
+      <Container>
+        <TourRoute className="tour-route">
+          <Row>
+            <h2 className="green">
+              <i>Along the way</i>
+            </h2>
+            <Col className="info-description">
+              <p>
+                The Cliffs tour leaves at 6:45 from the Hugh Lane Gallery on
+                Parnell Square, it is advised to arrive about 10 minutes early.
+              </p>
+              <p>
+                Our first stop is a service station named in honour of Barack
+                Obama due to his great grandfather emigrating from the
+                neighbouring village of Moneygall in 1851. Obama visited the
+                village in 2016 to meet distant relatives and enjoyed a pint of
+                Guinness with Michelle in the local pub while there.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col xl={6} className="image">
+              <Iframe
+                url="https://www.youtube.com/embed/f8NTeHm3y4o"
+                width="100%"
+                height="auto"
+                id="myId"
+                className="myClassname"
+                display="initial"
+                position="relative"
+              />
+            </Col>
+            <Col xl={6} className="info-description">
+              <p>
+                After the cliffs we travel along the Wild Atlantic way, stopping
+                off at the burren to take in the sights. We then continue along
+                this coastal route and the views get better and better as we go.
+                Along the way we pass Ballyvaughn and Kinvarra, two fishing
+                villages each with exceptional thatch roof architecture.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <p>
+              After a quick pit stop at the service station we continue to the
+              cliffs passing Bunratty Castle along the way. Originally a viking
+              camp it was first made a timber fortress under the Anglo Norman
+              lord Robert DeMuscegros in 1251. The current stone fortress was
+              built by the MacNamara family in 1425.
+            </p>
+            <p>
+              Our first stop is at The Cliffs of Moher where you will have
+              plenty time to explore at your leasure. There are cafes, toilet
+              facilities, shops and an information center at the visitor center.
+            </p>
+          </Row>
+          <Row>
+            <Col xl={6} className="image">
+              <img src={Wild} alt="Wild Atlantic Way" />
+              <div className="photo-description">
+                <div className="photo-title">
+                  <em>Wild Atlantic Way</em>
+                </div>
+                <div className="photo-link">Source: Author's Own</div>
+              </div>
+            </Col>
+            <Col>
+              <p>
+                Our next stop is at Kilmacduagh, along the way I will explain a
+                little more about early Christian Ireland and the relationship
+                of these people with the native Celts and invading Vikings.
+              </p>
+              <p> </p>
+              <p>
+                After Kilmacduagh we continue to Galway where you will be able
+                to explore the city at your own place. Galway is a beautiful
+                city with lots of great pubs, restaurants, walking routes and
+                street musicians.
+              </p>
+              <p>
+                Once we're all back on board after Galway we will drive coast to
+                coast back to Dublin, getting you back to Dublin around 7:30pm.
+              </p>
+            </Col>
+          </Row>
+        </TourRoute>
+      </Container>
     </motion.div>
   );
 };
@@ -116,6 +208,11 @@ const West = () => {
 const TourWrapper = styled(motion.div)`
   height: 22.5vh;
   overflow: hidden;
+`;
+const TourRoute = styled(motion.div)`
+  .tour-route {
+    text-align: center;
+  }
 `;
 
 export default West;

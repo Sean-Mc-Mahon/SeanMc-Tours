@@ -209,7 +209,7 @@ const Dublin = () => {
               pagination={{ clickable: true }}
               className="infoSwiper"
             >
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <img className="location-image" src={Torc} alt="Torc" />
                 <div className="photo-description">
                   <div className="photo-title">
@@ -244,7 +244,7 @@ const Dublin = () => {
                     </a>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <img className="location-image" src={Collar} alt="Collar" />
                 <div className="photo-description">
