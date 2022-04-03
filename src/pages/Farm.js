@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 //images
 import Farm1 from "../img/glen/farm_1.webp";
+import Sheep from "../img/glen/sheep.jpg";
 //bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -40,33 +41,26 @@ const Farm = () => {
                   <div className="photo-link">Source: Author's Own</div>
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <img className="location-image" src={Sheep} alt="Sheep" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Irish Working Sheepdogs</em>
+                  </div>
+                  <div className="photo-link">Source: Author's Own</div>
+                </div>
+              </SwiperSlide>
             </Swiper>
           </Col>
           <Col xl={6} className="description">
             <h2 className="location-name">Sheepdog Demonstration</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              obcaecati numquam velit a consequatur asperiores, neque non maxime
-              vitae odit necessitatibus repellat libero? Iure, enim sunt tempore
-              atque impedit quaerat at iste esse molestiae perspiciatis odio
-              molestias voluptatibus quod! Dicta officiis commodi quia quas
-              nesciunt veritatis accusamus, quam laborum voluptates.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              aspernatur amet distinctio magnam quae maxime, non optio
-              repellendus fugit delectus provident aperiam animi pariatur
-              commodi rem eum assumenda a voluptate blanditiis! Sed illo
-              voluptatum aut illum aliquam nobis quidem accusantium!
-            </p>
-            <p className="quote">
-              <i>
-                <strong>
-                  " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cumque error accusamus quia quae ab nobis a modi at
-                  exercitationem nulla. "
-                </strong>
-              </i>
+              Once we arrive at the farm I will hand over the tourguiding duties
+              to the talented Michael who will demonstrate how he manages to
+              herd his sheep using his incredibly trained border collies. As
+              well as seeing the dogs in action Michael will explain all about
+              how the sheep are raised and taken care of and how the sheep
+              industry in general works.
             </p>
           </Col>
         </Row>

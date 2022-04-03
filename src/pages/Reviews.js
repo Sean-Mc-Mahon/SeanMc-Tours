@@ -44,6 +44,118 @@ const Reviews = () => {
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
+                      Our top favorite experience!
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      Please RUN to book this tour! This tour was, hands down,
+                      our top favorite day for our entire stay in Ireland. Sean
+                      was our tour guide, and he was so considerate and made
+                      sure that everyone in our group was comfortable with the
+                      bus ride and had a wealth of information to share with us.
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>Leah Moore</strong> (Aril 2022)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-or5-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
+                        >
+                          Trip Advisor
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
+                <SwiperSlide className="flexCol">
+                  <Review className="review">
+                    <h4 className="review-title">
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      Yesterday we went on a tour to Cliffs of Moher where we
+                      had as a driver Marco with whom we felt safe, and Sean as
+                      a wonderful tour guide with a lot of knowledge about Irish
+                      history and fun fucts. The tour was really amazing and
+                      would highly recommend it to anyone visiting Dublin!
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>martina kovac</strong> (April 2022)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.google.com/search?q=finnmccools+tours+reviews&sxsrf=APq-WBvFdgqkTomb6fWUO7PbjIben8WX7g%3A1645466140111&ei=HNITYuCZBtK4gQbBlJPABg&ved=0ahUKEwjgl5WGr5H2AhVSXMAKHUHKBGgQ4dUDCA4&uact=5&oq=finnmccools+tours+reviews&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEOgcIABBHELADOgoILhDHARCvARANOgYIABAWEB46AggmOgcIIRAKEKABSgQIQRgASgQIRhgAUMIFWKgRYMwSaAFwAXgAgAFViAGeBJIBATiYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x48670e9b3484f153:0x43098a869598425b,1,,,"
+                        >
+                          Google
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
+                <SwiperSlide className="flexReview">
+                  <Review className="review">
+                    <h4 className="review-title">
+                      Fantastic Cliffs of Moher
+                      <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                          <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                              <i class="fa-solid fa-star"></i>
+                            </i>
+                          </i>
+                        </i>
+                      </i>
+                    </h4>
+                    <p className="review-text">
+                      I would highly recommend Sean and Marco who were really
+                      kind and professional. Sean knows a lot of information
+                      about Irish history and culture and was helpful with a lot
+                      of tips and tricks. It was a really great day!
+                    </p>
+                    <div className="review-author">
+                      <div className="review-name">
+                        <strong>Kate</strong> (April 2022)
+                      </div>
+                      <small className="review-site">
+                        {" "}
+                        <a
+                          rel="noopener"
+                          target={"blank"}
+                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-or10-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
+                        >
+                          TripAdvisor
+                        </a>
+                      </small>
+                    </div>
+                  </Review>
+                </SwiperSlide>
+                {/* <SwiperSlide className="flexCol">
+                  <Review className="review">
+                    <h4 className="review-title">
                       Amazing experience!
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
@@ -150,7 +262,7 @@ const Reviews = () => {
                       </small>
                     </div>
                   </Review>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 {/* <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">

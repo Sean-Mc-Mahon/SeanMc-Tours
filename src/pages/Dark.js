@@ -1,4 +1,5 @@
 import React from "react";
+import Iframe from "react-iframe";
 //styled components
 import styled from "styled-components";
 //Animations
@@ -92,26 +93,27 @@ const Dark = () => {
           <Col xl={6} className="description">
             <h2 className="location-name">Dark Hedges</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              obcaecati numquam velit a consequatur asperiores, neque non maxime
-              vitae odit necessitatibus repellat libero? Iure, enim sunt tempore
-              atque impedit quaerat at iste esse molestiae perspiciatis odio
-              molestias voluptatibus quod! Dicta officiis commodi quia quas
-              nesciunt veritatis accusamus, quam laborum voluptates.
+              The dark hedges are a series of serpentine interweaving beech
+              trees planted by James Stuart in 1779 while building Gracehill
+              manor in honor of his wife Grace. The hedges featured in season 2
+              episode 1 of Game of Thrones in a scene where Arya is escaping
+              King's Landing along with Gendry.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              aspernatur amet distinctio magnam quae maxime, non optio
-              repellendus fugit delectus provident aperiam animi pariatur
-              commodi rem eum assumenda a voluptate blanditiis! Sed illo
-              voluptatum aut illum aliquam nobis quidem accusantium!
-            </p>
+            <iframe
+              width="100%"
+              height="auto"
+              src="https://www.youtube.com/embed/lvDzBAy2wN8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <p className="quote">
               <i>
                 <strong>
-                  " Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cumque error accusamus quia quae ab nobis a modi at
-                  exercitationem nulla. "
+                  " It is rumoured that the trees are protected by a ghost known
+                  as the Grey Lady who is said to wonder up and down the hedges,
+                  protecting them from anyone who would do them harm..."
                 </strong>
               </i>
             </p>

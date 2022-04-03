@@ -15,6 +15,7 @@ import "swiper/css/scrollbar";
 import Bel1 from "../img/cwy/bel_1.webp";
 import Bel2 from "../img/cwy/bel_2.webp";
 import Bel3 from "../img/cwy/bel_3.webp";
+import Bel4 from "../img/cwy/umbrellas.jpg";
 //bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -49,6 +50,15 @@ const Bel = () => {
                       Flickr
                     </a>
                   </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img className="location-image" src={Bel4} alt="Belfast" />
+                <div className="photo-description">
+                  <div className="photo-title">
+                    <em>Commercial Ct</em>
+                  </div>
+                  <div className="photo-link">Source:Author's Own</div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>

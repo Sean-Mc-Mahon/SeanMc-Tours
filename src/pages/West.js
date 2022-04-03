@@ -117,14 +117,13 @@ const West = () => {
       <Container>
         <TourRoute className="tour-route">
           <Row>
-            <h2 className="green">
-              <i>Along the way</i>
-            </h2>
             <Col className="info-description">
+              <h5 className="green">Departure</h5>
               <p>
                 The Cliffs tour leaves at 6:45 from the Hugh Lane Gallery on
                 Parnell Square, it is advised to arrive about 10 minutes early.
               </p>
+              <h5 className="green">To the Cliffs...</h5>
               <p>
                 Our first stop is a service station named in honour of Barack
                 Obama due to his great grandfather emigrating from the
@@ -137,7 +136,7 @@ const West = () => {
           <Row>
             <Col xl={6} className="image">
               <Iframe
-                url="https://www.youtube.com/embed/f8NTeHm3y4o"
+                url="https://www.youtube.com/embed/5206QjFWmAk"
                 width="100%"
                 height="auto"
                 id="myId"
@@ -147,6 +146,7 @@ const West = () => {
               />
             </Col>
             <Col xl={6} className="info-description">
+              <h5 className="green">After the Cliffs...</h5>
               <p>
                 After the cliffs we travel along the Wild Atlantic way, stopping
                 off at the burren to take in the sights. We then continue along
@@ -169,6 +169,15 @@ const West = () => {
               plenty time to explore at your leasure. There are cafes, toilet
               facilities, shops and an information center at the visitor center.
             </p>
+            <p>
+              From the cliffs we will continue along the wild atlantic way
+              passing the Aran Islands before making a quick stop at the
+              desolate but beautiful{" "}
+              <Link className="green" to="/burren">
+                <strong>The Burren</strong>
+              </Link>
+              .
+            </p>
           </Row>
           <Row>
             <Col xl={6} className="image">
@@ -182,17 +191,24 @@ const West = () => {
             </Col>
             <Col>
               <p>
-                Our next stop is at Kilmacduagh, along the way I will explain a
-                little more about early Christian Ireland and the relationship
-                of these people with the native Celts and invading Vikings.
+                Our next stop is at{" "}
+                <Link className="green" to="/kilmac">
+                  <strong>Kilmacduagh</strong>
+                </Link>
+                , along the way I will explain a little more about early
+                Christian Ireland and the relationship of these people with the
+                native Celts and invading Vikings.
               </p>
-              <p> </p>
               <p>
-                After Kilmacduagh we continue to Galway where you will be able
-                to explore the city at your own place. Galway is a beautiful
-                city with lots of great pubs, restaurants, walking routes and
-                street musicians.
+                After Kilmacduagh we continue to{" "}
+                <Link className="green" to="/gal">
+                  <strong>Galway</strong>
+                </Link>{" "}
+                where you will be able to explore the city at your own place.
+                Galway is a beautiful city with lots of great pubs, restaurants,
+                walking routes and street musicians.
               </p>
+              <h5 className="green">Back to Dublin</h5>
               <p>
                 Once we're all back on board after Galway we will drive coast to
                 coast back to Dublin, getting you back to Dublin around 7:30pm.
@@ -210,6 +226,8 @@ const TourWrapper = styled(motion.div)`
   overflow: hidden;
 `;
 const TourRoute = styled(motion.div)`
+  text-align: center;
+  margin-top: 0.5rem;
   .tour-route {
     text-align: center;
   }
