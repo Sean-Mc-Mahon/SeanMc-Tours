@@ -504,20 +504,19 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.getyourguide.com/dublin-l31/giant-s-causeway-full-day-tour-from-dublin-t67953/"
+                  href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
                 >
-                  Get Your Guide (Causeway Tour)
+                  Get Your Guide (Cliffs Tour)
                 </a>
               </p>
-
               <hr />
               <p>
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
+                  href="https://www.getyourguide.com/dublin-l31/giant-s-causeway-full-day-tour-from-dublin-t67953/"
                 >
-                  Get Your Guide (Cliffs Tour)
+                  Get Your Guide (Causeway Tour)
                 </a>
               </p>
               <hr />
@@ -560,6 +559,16 @@ const Reviews = () => {
                   href="https://www.viator.com/en-IE/tours/Dublin/Giants-Causeway-and-Carrick-a-Rede-Rope-Bridge-Day-Trip-from-Dublin/d503-7572P2"
                 >
                   Viator (Causeway Tour)
+                </a>
+              </p>
+              <hr />
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.viator.com/en-IE/tours/Dublin/Glendalough-and-Kilkenny-Tour-from-Dublin/d503-7572P11"
+                >
+                  Viator (Causeway Glendalough)
                 </a>
               </p>
             </Col>
