@@ -137,7 +137,7 @@ const West = () => {
             <Col xl={6} className="image">
               <Iframe
                 url="https://www.youtube.com/embed/5206QjFWmAk"
-                width="100%"
+                width="300"
                 height="auto"
                 id="myId"
                 className="myClassname"

@@ -175,6 +175,68 @@ const North = () => {
             the Rathlin Island and if the conditions are clear Scotland. From
             this point we will be just 14 kilometers from Scotland.
           </p>
+
+          <Row>
+            <Col xl={6} className="info-description">
+              <h5 className="green">Game of Thrones</h5>
+              <p>
+                Game of Thrones used locations from all over Northern Ireland to
+                create Westeros. Most scenes south of the wall in the show were
+                filmed in Northern Ireland and the Antrim coastline was used
+                extensively, primarily as the Iron Islands but also for other
+                locations.
+              </p>
+            </Col>
+            <Col xl={6} className="image">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/U_9bivtHwn8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div className="photo-description">
+                <div className="photo-title">
+                  <em>Ballintoy Harbour/Iron Islands</em>
+                </div>
+              </div>
+            </Col>
+            <Col xl={6} className="image">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/IccqnH7VJjk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div className="photo-description">
+                <div className="photo-title">
+                  <em>Ballintoy Harbour/Iron Islands</em>
+                </div>
+              </div>
+            </Col>
+            <Col xl={6} className="image">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/ZTNDHf5AXr4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div className="photo-description">
+                <div className="photo-title">
+                  <em>Whitepark Bay/The Burning of the Old Gods</em>
+                </div>
+              </div>
+            </Col>
+          </Row>
+
           <p>
             Our next stop is the{" "}
             <Link className="green" to="/dark">
@@ -185,6 +247,22 @@ const North = () => {
             Northern Ireland and the extent to which the entire country was used
             in it's production.
           </p>
+          <Col xl={6} className="image">
+            <iframe
+              width="100%"
+              height="300"
+              src="https://www.youtube.com/embed/lvDzBAy2wN8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div className="photo-description">
+              <div className="photo-title">
+                <em>Dark Hedges/Kings Landing Entry</em>
+              </div>
+            </div>
+          </Col>
         </Row>
         <Row>
           <Col>
@@ -198,12 +276,6 @@ const North = () => {
               museum where you can learn all about life at the shipyard as well
               as life on board the ship. Passengers on the regular Causeway tour
               will have free time to spend how you wish in Belfast.
-            </p>
-            <p>
-              After Kilmacduagh we continue to Galway where you will be able to
-              explore the city at your own place. Galway is a beautiful city
-              with lots of great pubs, restaurants, walking routes and street
-              musicians.
             </p>
             <h5 className="green">Back to Dublin</h5>
             <p>

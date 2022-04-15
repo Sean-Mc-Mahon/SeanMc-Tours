@@ -571,6 +571,20 @@ const Reviews = () => {
                   Viator (Causeway Glendalough)
                 </a>
               </p>
+              <h5 className="green">Tips</h5>
+              <p>
+                Tips are welcome and split evenly with the driver, if you would
+                like to leave a tip you can do so at the end of the tour or
+                alternatively you can click{" "}
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://pay.strikepay.co/tags/Xc1A1ZoqF4rNYYSFJFw0?uid=Xc1A1ZoqF4rNYYSFJFw0"
+                >
+                  here
+                </a>
+                .
+              </p>
             </Col>
           </Row>
         </Container>
