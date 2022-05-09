@@ -100,7 +100,7 @@ const Food = () => {
             </Swiper>
           </Col>
           <Col>
-            <h2>Food</h2>
+            <h2>Food & Drink</h2>
             <p>
               Irish food is best described as rustic, farmhouse style cooking.
               Ireland does not have the same culinary reputation as other
@@ -135,6 +135,299 @@ const Food = () => {
               tourists and can be over priced.
             </p>
           </Col>
+          <Row>
+            <Col>
+              <h3 className="green">Breakfast/Lunch</h3>
+              <p>
+                There's a lot of great breakfast options around Dublin that
+                include but also go beyond an Irish breakfast. Here is an{" "}
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://dineindublin.ie/food/16-places-to-get-breakfast-in-dublin"
+                >
+                  article
+                </a>{" "}
+                with some great recommendations including some of my favourites
+                such as:
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.dublintown.ie/business/metro/"
+                >
+                  Metro Cafe
+                </a>
+                : Just off of Grafton street their breakfast bap is one of my
+                favourite meals in town.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://brotherhubbard.ie/"
+                >
+                  Brother Hubbard
+                </a>
+                : A mix of Irish and Mediteranean food there is a North side and
+                Southside location, both very popular.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="http://www.oneillspubdublin.com/"
+                >
+                  O'Neills
+                </a>
+                : A popular spot in the center of town for people who want to
+                experience an Irish fry.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.avoca.com/en/stores-and-cafes/suffolk-street"
+                >
+                  Avoca
+                </a>
+                : An Irish institution, more known for their design products
+                they have an excellent restaurant upstairs serving breakfast and
+                lunch as well as a gourmet food shop in the basement with a
+                rotisserie and great baked goods.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://cornucopia.ie/"
+                >
+                  Cornucopia
+                </a>
+                : The number one option for vegetarians in Dublin, they also do
+                great vegan icecream.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.bewleys.com/ie/grafton-street-cafe/"
+                >
+                  Bewley's
+                </a>
+                : Iconic among Dubliners for generations and known for excellent
+                baked goods as well as hot breakfasts, worth visiting just for
+                the beautiful art deco decor.
+              </p>
+              <p>
+                <a rel="noopener" target={"blank"} href="https://bread41.ie/">
+                  Bread 41
+                </a>
+                : One last place not in the article but should be is Bread 41,
+                amazing pastries.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h3 className="green">Lunch/Dinner</h3>
+              <p>
+                Just some of the hundreds of great food options in Dublin are
+                listed in this{" "}
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.timeout.com/dublin/restaurants/best-restaurants-in-dublin"
+                >
+                  article
+                </a>{" "}
+                including some of my favourites:
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.featherblade.ie/"
+                >
+                  Featherblade
+                </a>
+                : My absolute favourite place for a burger or steak in Dublin
+                and located on Dawson Street, one of the most beautiful streets
+                in the city.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.bunsen.ie/"
+                >
+                  Bunsen
+                </a>
+                : This is a chain, you're never far from Bunsen around Dublin,
+                they only do burgers and they're a great option for something
+                quick, tasty and inexpensive.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.fadestreetsocial.com/"
+                >
+                  Fade Street Social
+                </a>
+                : A handful of restaurants around Fade Street could take this
+                spot, Market Bar, l'Gueuleton etc... I'd recommend checking out
+                this lively area generally, as well as having some good food
+                options there are great bars in the area such as The Long Hall
+                and Idlewild.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.trocadero.ie/"
+                >
+                  Trocodero
+                </a>
+                : A real oldschool restaurant, popular as a pre theatre venue,
+                the walls are adorned with Irish stars of stage and screen.
+              </p>
+              <p>
+                <a rel="noopener" target={"blank"} href="http://klaw.ie/">
+                  Seafood Cafe
+                </a>
+                : Right in the heart of Temple bar this place has a great
+                atmosphere and the chef Niall Sabongi has an excellent
+                reputation for seafood.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.forno500.ie/"
+                >
+                  Forno 500
+                </a>
+                : Centrally located on Dame Street Forno 500 does a great
+                Neoploitan pizza.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h3 className="green">Pubs</h3>
+              <p>
+                There really are too many great pubs to mention but just to name
+                a few...
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="http://cobblestonepub.ie/"
+                >
+                  The Cobblestone
+                </a>
+                : The best place to go for live Irish music, gigs on every
+                night.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://piperscorner.ie/"
+                >
+                  Piper's Corner
+                </a>
+                : Quickly becoming one of my favourite places in Dublin, also
+                great for live music.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.thepalacebardublin.com/"
+                >
+                  The Palace Bar
+                </a>
+                : Beautiful pub and a vast selection of whiskey upstairs.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.visitdublin.com/see-do/details/the-long-hall"
+                >
+                  The Long Hall
+                </a>
+                : One of the great Victorian era pubs.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://kehoesdublin.ie/"
+                >
+                  Kehoe's
+                </a>
+                : Another iconic Dublin pub, hugely popular on the weekends.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.dublintown.ie/business/pmacs/"
+                >
+                  P'Macs
+                </a>
+                &
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.dublinvisitorcentre.ie/nature-nuts/cassidys-westmoreland-street/"
+                >
+                  Cassidy's
+                </a>{" "}
+                have a similar vibe, they have the same owners and in fact there
+                are more in the group such as Blackbird in Rathmines. They are
+                dark and loud and have a good selection of craft beers, good
+                options if the traditional Irish pub isn't what you are in the
+                mood for.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h3 className="green">Breweries/Distilleries</h3>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://rascalsbrewing.com/"
+                >
+                  Rascals
+                </a>
+                &{" "}
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://stillgardendistillery.com/"
+                >
+                  Stillgarden Distillery
+                </a>{" "}
+                are located right next to each other in an industrial estate in
+                Inchicore, the setting might not be the most idyllic but the two
+                combined in my opinion make for the best booze experience in
+                Dublin. Rascals is hands down my favourite brewery in Ireland
+                and all of their beers are excellent. The tour shows you the
+                entire brewery, it's a small independant brewery so you really
+                get to see the entire operation. Stillgarden next door make
+                their own bespoke gins, vodkas and liquers from botanicals grown
+                on site and tours and cocktail classes are available.
+              </p>
+            </Col>
+          </Row>
         </Row>
       </Container>
     </InfoPages>
