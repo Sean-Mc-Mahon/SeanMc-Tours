@@ -44,7 +44,7 @@ const Reviews = () => {
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
-                      Our top favorite experience!
+                      Great tour guide
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
                           <i class="fa-solid fa-star">
@@ -56,24 +56,22 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      Please RUN to book this tour! This tour was, hands down,
-                      our top favorite day for our entire stay in Ireland. Sean
-                      was our tour guide, and he was so considerate and made
-                      sure that everyone in our group was comfortable with the
-                      bus ride and had a wealth of information to share with us.
+                      I’m not usually a big tour kind of person but I really
+                      enjoyed this tour. Our guide Sean made the trip better
+                      than I thought a guide could have.
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Leah Moore</strong> (Aril 2022)
+                        <strong>Alex_P</strong> (May 2022)
                       </div>
                       <small className="review-site">
                         {" "}
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-or5-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
+                          href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
                         >
-                          Trip Advisor
+                          Viator
                         </a>
                       </small>
                     </div>
@@ -82,6 +80,7 @@ const Reviews = () => {
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
+                      Must see
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
                           <i class="fa-solid fa-star">
@@ -93,24 +92,24 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      Yesterday we went on a tour to Cliffs of Moher where we
-                      had as a driver Marco with whom we felt safe, and Sean as
-                      a wonderful tour guide with a lot of knowledge about Irish
-                      history and fun fucts. The tour was really amazing and
-                      would highly recommend it to anyone visiting Dublin!
+                      Highly recommend this tour. The views are breathtaking.
+                      The Cliff of Moher are a must. Galaway is a beautiful city
+                      and very vibrant. Shawn (guide) and Liza (driver) did an
+                      amazing job. Shawn shared a lot of information, very funny
+                      and took great care of his customers.
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>martina kovac</strong> (April 2022)
+                        <strong>Isaedmarie_F</strong> (May 2022)
                       </div>
                       <small className="review-site">
                         {" "}
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.google.com/search?q=finnmccools+tours+reviews&sxsrf=APq-WBvFdgqkTomb6fWUO7PbjIben8WX7g%3A1645466140111&ei=HNITYuCZBtK4gQbBlJPABg&ved=0ahUKEwjgl5WGr5H2AhVSXMAKHUHKBGgQ4dUDCA4&uact=5&oq=finnmccools+tours+reviews&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEOgcIABBHELADOgoILhDHARCvARANOgYIABAWEB46AggmOgcIIRAKEKABSgQIQRgASgQIRhgAUMIFWKgRYMwSaAFwAXgAgAFViAGeBJIBATiYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x48670e9b3484f153:0x43098a869598425b,1,,,"
+                          href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
                         >
-                          Google
+                          Viator
                         </a>
                       </small>
                     </div>
@@ -119,7 +118,6 @@ const Reviews = () => {
                 <SwiperSlide className="flexReview">
                   <Review className="review">
                     <h4 className="review-title">
-                      Fantastic Cliffs of Moher
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
                           <i class="fa-solid fa-star">
@@ -131,10 +129,8 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      I would highly recommend Sean and Marco who were really
-                      kind and professional. Sean knows a lot of information
-                      about Irish history and culture and was helpful with a lot
-                      of tips and tricks. It was a really great day!
+                      Our tourist guide Shaun and bus driver Lisa were great.
+                      💪😊
                     </p>
                     <div className="review-author">
                       <div className="review-name">
@@ -145,342 +141,14 @@ const Reviews = () => {
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-or10-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
-                        >
-                          TripAdvisor
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                {/* <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      Amazing experience!
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      Sean the guide and Brian the driver made our tour amazing!
-                      We really enjoyed Sean's way of communication and Brian's
-                      style in driving. Tour was perfect with great natural
-                      spots!
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Sunshine 228</strong> (March 2022)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-or5-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
-                        >
-                          Trip Advisor
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      Amazing Trip with our guide Sean and our driver Gabor!
-                      Breathless views during the trip, lots of information
-                      about Irish culture.. I recommend for everyone and for
-                      sure will be back for another trip!
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Ana</strong> (March 2022)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
-                        >
-                          Get Your Guide
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                <SwiperSlide className="flexReview">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      Our tour guide Sean and dirver Robert were excellent - did
-                      the Giants Causeway your with Dark Hedges and Belfast City
-                      Centre. Sean went above and beyond for us - we learned a
-                      good deal of Irish history and felt very well taken care
-                      of. Would highly recommend!
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Brenna Forde</strong> (March 2022)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.google.com/search?q=finnmccools+tours+reviews&sxsrf=APq-WBvFdgqkTomb6fWUO7PbjIben8WX7g%3A1645466140111&ei=HNITYuCZBtK4gQbBlJPABg&ved=0ahUKEwjgl5WGr5H2AhVSXMAKHUHKBGgQ4dUDCA4&uact=5&oq=finnmccools+tours+reviews&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEOgcIABBHELADOgoILhDHARCvARANOgYIABAWEB46AggmOgcIIRAKEKABSgQIQRgASgQIRhgAUMIFWKgRYMwSaAFwAXgAgAFViAGeBJIBATiYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x48670e9b3484f153:0x43098a869598425b,1,,,"
+                          href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsSa7KqrAwMGC0UjWoMLEwMzdItTBJTTE0S05JNbUyqDAyNDc2SktJMk80S0o0MEnyEijPzElRKMovSy1SKMkvLSoGAMfGFWM&q=wild+rover+tours&oq=wild+rover&aqs=chrome.1.69i57j46i131i175i199i433i512j69i59j0i433i512j0i512l3j69i60.5958j0j7&sourceid=chrome&ie=UTF-8#lrd=0x48670e84ed16cde5:0x21732fdb7a6ba04b,1,,,"
                         >
                           Google
                         </a>
                       </small>
                     </div>
                   </Review>
-                </SwiperSlide> */}
-                {/* <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      ...Everything was made special thanks to Sean's
-                      explanations full of curiosities and Irish songs in the
-                      background! A real immersion in the culture of this
-                      country!! Sean was also really helpful in giving any
-                      advice and Marco was an impeccable driver, even in the
-                      most difficult corners!...
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Giulia</strong> (March 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
-                        >
-                          Get Your Guide
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
                 </SwiperSlide>
-                <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      Great experience with Sean and Brian
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      ...Sean was an amazing guide, he gave us tons of
-                      interesting info throughout the tour....
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Paige L</strong> (March 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-Finn_McCools_Tours-Dublin_County_Dublin.html"
-                        >
-                          Get Your Guide
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                <SwiperSlide className="flexReview">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      Sean and Thomas were very kind and accommodating to
-                      everyone on board. Sean’s commentary was entertaining and
-                      easy to follow- would recommend!
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Gina_T,</strong> (March 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.viator.com/en-IE/tours/Dublin/Giants-Causeway-and-Carrick-a-Rede-Rope-Bridge-Day-Trip-from-Dublin/d503-7572P2"
-                        >
-                          Tripadvisor
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide> */}
-                {/* <SwiperSlide className="flexReview">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      Beautiful and factfull{" "}
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      It was a great ride, amazing sites, plenty of interesting
-                      facts, great atmosphere for everyone, definitely recommend
-                      going on a tour with the guide Sean and the driver Fergus.
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Moloce A</strong> (Feb 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
-                        >
-                          Tripadvisor
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      ...Thank you so much Sean and Fergus for making this trip
-                      so smooth and enjoyable. Will definitely be coming again
-                      the next time we come to Ireland!
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Grace</strong> (Feb 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.getyourguide.com/dublin-l31/giant-s-causeway-full-day-tour-from-dublin-t67953/"
-                        >
-                          Get Your Guide
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide>
-                <SwiperSlide className="flexCol">
-                  <Review className="review">
-                    <h4 className="review-title">
-                      <i class="fa-solid fa-star">
-                        <i class="fa-solid fa-star">
-                          <i class="fa-solid fa-star">
-                            <i class="fa-solid fa-star">
-                              <i class="fa-solid fa-star"></i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </h4>
-                    <p className="review-text">
-                      The experience with Sean (guide) and Vic (driver) was
-                      absolutely an amazing one. A lot of interesting
-                      information about Dublin, history of Ireland, deep
-                      knowledge of Irish music and Irish food. I totally
-                      recommend it! It is a unique possibility to discover new
-                      thing while staying in Dublin for some days! The place
-                      visited were really interesting. Good job! :)
-                    </p>
-                    <div className="review-author">
-                      <div className="review-name">
-                        <strong>Isabella Ronci</strong> (Feb 22)
-                      </div>
-                      <small className="review-site">
-                        {" "}
-                        <a
-                          rel="noopener"
-                          target={"blank"}
-                          href="https://www.google.com/search?q=finnmccools+tours+reviews&sxsrf=APq-WBvFdgqkTomb6fWUO7PbjIben8WX7g%3A1645466140111&ei=HNITYuCZBtK4gQbBlJPABg&ved=0ahUKEwjgl5WGr5H2AhVSXMAKHUHKBGgQ4dUDCA4&uact=5&oq=finnmccools+tours+reviews&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEOgcIABBHELADOgoILhDHARCvARANOgYIABAWEB46AggmOgcIIRAKEKABSgQIQRgASgQIRhgAUMIFWKgRYMwSaAFwAXgAgAFViAGeBJIBATiYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x48670e9b3484f153:0x43098a869598425b,1,,,"
-                        >
-                          Google
-                        </a>
-                      </small>
-                    </div>
-                  </Review>
-                </SwiperSlide> */}
               </Swiper>
               <p>
                 As an independant contractor you're reviews are hugely
@@ -493,7 +161,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.tripadvisor.ie/Attraction_Review-g186605-d6728818-Reviews-Finn_McCools_Tours-Dublin_County_Dublin.html#REVIEWS"
+                  href="https://www.tripadvisor.ie/Attraction_Review-g186605-d2091253-Reviews-Wild_Rover_Tours-Dublin_County_Dublin.html"
                 >
                   Tripadvisor
                 </a>
@@ -504,7 +172,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-full-day-tour-from-dublin-t91047/"
+                  href="https://www.getyourguide.com/dublin-l31/cliffs-of-moher-burren-coastal-drive-galway-bay-tour-t38154/"
                 >
                   Get Your Guide (Cliffs Tour)
                 </a>
@@ -514,7 +182,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.getyourguide.com/dublin-l31/giant-s-causeway-full-day-tour-from-dublin-t67953/"
+                  href="https://www.getyourguide.com/dublin-l31/belfast-titanic-quarter-glens-of-antrim-t38160/"
                 >
                   Get Your Guide (Causeway Tour)
                 </a>
@@ -524,7 +192,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.getyourguide.com/dublin-l31/glendalough-wicklow-kilkenny-sheep-dog-trails-t131067/"
+                  href="https://www.getyourguide.com/dublin-l31/kilkenny-wicklow-mountains-glendalough-from-dublin-t38157/"
                 >
                   Get Your Guide (Glendalough Tour)
                 </a>
@@ -535,7 +203,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.google.com/search?q=finnmccools+tours+reviews&sxsrf=APq-WBvFdgqkTomb6fWUO7PbjIben8WX7g%3A1645466140111&ei=HNITYuCZBtK4gQbBlJPABg&ved=0ahUKEwjgl5WGr5H2AhVSXMAKHUHKBGgQ4dUDCA4&uact=5&oq=finnmccools+tours+reviews&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEOgcIABBHELADOgoILhDHARCvARANOgYIABAWEB46AggmOgcIIRAKEKABSgQIQRgASgQIRhgAUMIFWKgRYMwSaAFwAXgAgAFViAGeBJIBATiYAQCgAQHIAQjAAQE&sclient=gws-wiz#lrd=0x48670e9b3484f153:0x43098a869598425b,1,,,"
+                  href="https://www.google.com/search?q=wild+rover+tours&spell=1&sa=X&ved=2ahUKEwiDkar_09L3AhWjnVwKHRg2BgoQBSgAegQIAhAy&biw=1280&bih=601&dpr=1.5#lrd=0x48670e84ed16cde5:0x21732fdb7a6ba04b,1,,,"
                 >
                   Google
                 </a>
@@ -546,7 +214,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-The-Burren-and-Galway-Day-Trip-from-Dublin/d503-7572P3"
+                  href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
                 >
                   Viator (Cliffs Tour)
                 </a>
@@ -556,7 +224,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.viator.com/en-IE/tours/Dublin/Giants-Causeway-and-Carrick-a-Rede-Rope-Bridge-Day-Trip-from-Dublin/d503-7572P2"
+                  href="https://www.viator.com/tours/Dublin/Northern-Ireland-Day-Trip-from-Dublin-Belfast-Black-Taxi-Tour-and-Giants-Causeway/d503-5300BLACKCAB"
                 >
                   Viator (Causeway Tour)
                 </a>
@@ -566,12 +234,12 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.viator.com/en-IE/tours/Dublin/Glendalough-and-Kilkenny-Tour-from-Dublin/d503-7572P11"
+                  href="https://www.viator.com/tours/Dublin/Kilkenny-City-and-Glendalough-Day-Trip-from-Dublin/d503-5300CASTLES"
                 >
-                  Viator (Causeway Glendalough)
+                  Viator (Glendalough)
                 </a>
               </p>
-              <h5 className="green">Tips</h5>
+              {/* <h5 className="green">Tips</h5>
               <p>
                 Tips are welcome and split evenly with the driver, if you would
                 like to leave a tip you can do so at the end of the tour or
@@ -584,7 +252,7 @@ const Reviews = () => {
                   here
                 </a>
                 .
-              </p>
+              </p> */}
             </Col>
           </Row>
         </Container>

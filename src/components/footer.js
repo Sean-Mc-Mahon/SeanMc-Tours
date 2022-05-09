@@ -19,14 +19,7 @@ const Footer = () => {
             <h5>10% OFF</h5>
             <p className="promo">
               <strong>
-                Use code 'sean10' for 10% any tour with{" "}
-                <a
-                  rel="noopener"
-                  target={"blank"}
-                  href="https://www.finnmccoolstours.com/"
-                >
-                  Finn McCools Tours
-                </a>
+                Book another tour and get 10% off, ask me for details
               </strong>
             </p>
           </Col>

@@ -40,9 +40,10 @@ const aboutSection = () => {
                 </Hide>
                 <Hide>
                   <motion.p variants={titleAnim}>
-                    I've been a tour guide with Finn McCools Tours since 2019. I
-                    love to show people the best of what Ireland has to offer
-                    and teach them a thing or two along the way.
+                    I've been a tour guide since 2019. I started working with
+                    Wild Rover in 2022. I love to show people the best of what
+                    Ireland has to offer and teach them a thing or two along the
+                    way.
                   </motion.p>
                   <motion.p variants={titleAnim}>
                     I know that most people on my tours are only in Ireland for

@@ -21,9 +21,9 @@ import Cwy1m from "../img/cwy/cwy_1m.webp";
 import Dark1 from "../img/cwy/dark_1.webp";
 import Dark1s from "../img/cwy/dark_1s.webp";
 import Dark1m from "../img/cwy/dark_1m.webp";
-import Bel1 from "../img/cwy/bel_1.webp";
-import Bel1s from "../img/cwy/bel_1s.webp";
-import Bel1m from "../img/cwy/bel_1m.webp";
+import Bel1 from "../img/cwy/titanic_cab.jpg";
+import Bel1s from "../img/cwy/titanic_cab.jpg";
+import Bel1m from "../img/cwy/titanic_cab.jpg";
 import Border from "../img/cwy/border.jpg";
 //Links
 import { Link } from "react-router-dom";
@@ -39,6 +39,43 @@ const North = () => {
       exit="exit"
     >
       <ScrollTop />
+
+      {/* <TourWrapper
+        id="dark-wrapper"
+        variants={TourAnim2}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
+        <div className="image-wrapper">
+          <Link className="link" to="/dark">
+            <img
+              src={Dark1s}
+              alt="Dark Hedges"
+              srcSet={`${Dark1s} 400w, ${Dark1m} 800w, ${Dark1} 1200w`}
+            />
+            <h1>Dark Hedges</h1>
+          </Link>
+        </div>
+      </TourWrapper> */}
+      <TourWrapper
+        id="belfast-wrapper"
+        variants={TourAnim3}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
+        <div className="image-wrapper">
+          <Link className="link" to="/bel">
+            <img
+              src={Bel1s}
+              alt="Belfast"
+              srcSet={`${Bel1s} 400w, ${Bel1m} 800w, ${Bel1} 1200w`}
+            />
+            <h1>Belfast</h1>
+          </Link>
+        </div>
+      </TourWrapper>
       <TourWrapper
         id="duluce-wrapper"
         variants={TourAnim}
@@ -75,57 +112,24 @@ const North = () => {
           </Link>
         </div>
       </TourWrapper>
-      <TourWrapper
-        id="dark-wrapper"
-        variants={TourAnim2}
-        initial="hidden"
-        animate="show"
-        exit="exit"
-      >
-        <div className="image-wrapper">
-          <Link className="link" to="/dark">
-            <img
-              src={Dark1s}
-              alt="Dark Hedges"
-              srcSet={`${Dark1s} 400w, ${Dark1m} 800w, ${Dark1} 1200w`}
-            />
-            <h1>Dark Hedges</h1>
-          </Link>
-        </div>
-      </TourWrapper>
-      <TourWrapper
-        id="belfast-wrapper"
-        variants={TourAnim3}
-        initial="hidden"
-        animate="show"
-        exit="exit"
-      >
-        <div className="image-wrapper">
-          <Link className="link" to="/bel">
-            <img
-              src={Bel1s}
-              alt="Belfast"
-              srcSet={`${Bel1s} 400w, ${Bel1m} 800w, ${Bel1} 1200w`}
-            />
-            <h1>Belfast</h1>
-          </Link>
-        </div>
-      </TourWrapper>
       <TourRoute className="tour-route">
         <Row>
           <Col className="info-description">
             <h5 className="green">Departure</h5>
             <p>
-              The Cliffs tour leaves at 6:45 from the Hugh Lane Gallery on
-              Parnell Square, it is advised to arrive about 10 minutes early.
+              <strong>7:00am</strong> at The Starbucks Cafe on Dame Street / 1
+              College Green
+              <br />
+              <strong>7:05am</strong> at Dublin Bus Office, 59 O’Connell Street,
+              Dublin 1
             </p>
-            <h5 className="green">To the Causeway...</h5>
+            <h5 className="green">To the North...</h5>
             <p>
-              Once we leave Dublin we will head straight up North. We cross teh
-              border usually just before 8am. The sign as we enter the North has
-              been heavily vandalised and there is no corresponding sign on the
-              other side of the road, this is possibly due to the large amount
-              of Irish republicans in the North who would rather not acknowledge
+              Once we leave Dublin we will head straight up North. We cross the
+              border usually around 8am. The sign as we enter the North has been
+              heavily vandalised and there is no corresponding sign on the other
+              side of the road, this is possibly due to the large amount of
+              Irish republicans in the North who would rather not acknowledge
               any seperation between their homes and the Republic of Ireland.
             </p>
             <Col xl={6} className="image">
@@ -142,42 +146,84 @@ const North = () => {
                 </div>
               </div>
             </Col>
-            <p>
-              {" "}
-              Our first stop is a service station just south of Belfast where
-              you can pick up some breakfast and snacks. There are food
-              facilites at the causeway but if you would rather bring your own
-              snacks this is a good chance to do so.
-            </p>
           </Col>
         </Row>
         <Row>
           <p>
-            Before we visit the Causeway we will make a brief photo stop at{" "}
-            <Link className="green" to="/dun">
-              <strong>Dunluce Castle</strong>
-            </Link>
-            , a beautiful 16th century ruin overlooking the Irish sea.
+            <strong>9:30am </strong>Arrival in Belfast. You can choose to enjoy
+            the world-famous <strong>Black Taxi Tour</strong> of Belfast where
+            your local guide will talk you through Belfast’s fascinating
+            political history or visit the state of the art Belfast{" "}
+            <strong>Titanic Experience</strong>.
           </p>
           <p>
-            From Dunluce we are just a ten minute drive from the{" "}
-            <Link className="green" to="/cwy">
-              <strong>Giant's Causeway</strong>
-            </Link>
-            . Along the way we will pass the town of Bushmills, home to the
-            oldest licensed whiskey distillery in the world.
+            <strong>Option One:</strong> Visit and sign the Peace Line and join
+            the list of world celebrities including Bill Clinton and the Dalai
+            Lama who have signed their name to the wall. Walk along this huge
+            wall which divides the two religious/national communities of east
+            Belfast. The political murals, some of which are the most
+            spectacular in the world, reflect a harrowing and tragic chapter in
+            the history of Northern Ireland. Your personal local guide will
+            relate to you their personal and family experiences of life in
+            Belfast during The Troubles, some of the stories you quite simply
+            won’t believe.
           </p>
-          <h5 className="green">Ater the Causeway...</h5>
           <p>
-            From the causeway we will continue along the antrim coastline,
-            passing dunsverick castle and Whiteparl Bay until we reach the
-            viewing platform at Portaneevy where we will have a stunning view of
-            the Rathlin Island and if the conditions are clear Scotland. From
-            this point we will be just 14 kilometers from Scotland.
+            <strong>Option Two:</strong> Your alternative to a Black Taxi Tour
+            is to visit the Belfast Titanic quarter and the state of the art
+            Titanic Visitor Experience. Here you can experience the entire life
+            and story of the Titanic, from her fateful maiden voyage to her
+            eventful discovery on the seabed of the North Atlantic. Learn about
+            the origins, construction, launch and history of the Titanic. The
+            experience contains interactive features so you can truly explore
+            the Titanic story in an insightful light. The journey will take you
+            beyond the aftermath of the sinking to the later discovery of the
+            ship. This tour will also take you to the present day with a tour of
+            the live undersea exploration centre.
           </p>
+          <p>
+            If some of your family wish to visit one attraction and others wish
+            to do the other, that’s perfectly alright as we will regroup before
+            we depart for the Giant’s Causeway.
+          </p>
+
+          <h5 className="green">To the Causeway...</h5>
 
           <Row>
             <Col xl={6} className="info-description">
+              <p>
+                Departing Belfast, we hit the road and into the heart of
+                Northern Ireland making our way to the spectacular Irish coast.
+                We stop at the remarkably unique{" "}
+                <Link className="link" to="/dun">
+                  Dunluce Castle
+                </Link>{" "}
+                located on the edge of the north Atlantic coast and used as a
+                filming location for Game of Thrones – an amazing photo
+                opportunity.
+              </p>
+              <p>
+                Following a route known as the Antrim Coastal Drive we pass
+                spectacular scenery, taking us through the village of Bushmills;
+                best known for its whiskey distillery.
+              </p>
+              <p>
+                From Dunluce it is just a ten minute drive to the Causeway. This
+                UNESCO World Heritage-listed site was created more than 60
+                million years ago after a series of volcanic eruptions. The
+                Causeway is best known for its distinctive rock formations that
+                span nearly 18 miles (29 kms) of coastline. During our 2 hour
+                stay you can see formations such as the Wishing Chair, the
+                Giant’s Boot and Organ, enjoy lunch with a choice of providers
+                on site and learn about the legend of Finn MacCool.
+              </p>
+              <p>
+                From the causeway we will continue along the antrim coastline,
+                passing dunsverick castle and Whitepark Bay and Portaneevy where
+                we will have a stunning view of the Rathlin Island and if the
+                conditions are clear, Scotland. From this point we will be just
+                14 kilometers from Scotland.
+              </p>
               <h5 className="green">Game of Thrones</h5>
               <p>
                 Game of Thrones used locations from all over Northern Ireland to
@@ -237,7 +283,7 @@ const North = () => {
             </Col>
           </Row>
 
-          <p>
+          {/* <p>
             Our next stop is the{" "}
             <Link className="green" to="/dark">
               <strong>Dark Hedges</strong>
@@ -262,28 +308,7 @@ const North = () => {
                 <em>Dark Hedges/Kings Landing Entry</em>
               </div>
             </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <p>
-              Our final stop is{" "}
-              <Link className="green" to="/bel">
-                <strong>Belfast</strong>
-              </Link>
-              , where you go here depends on which tour you have booked.
-              Passengers on our Titanic Tour will be brought to the Titanic
-              museum where you can learn all about life at the shipyard as well
-              as life on board the ship. Passengers on the regular Causeway tour
-              will have free time to spend how you wish in Belfast.
-            </p>
-            <h5 className="green">Back to Dublin</h5>
-            <p>
-              Once we're all back on board after Belast we will drive back to
-              Dublin, crossing the border at around 6:15pm getting you back to
-              Dublin around 7:30pm.
-            </p>
-          </Col>
+          </Col> */}
         </Row>
       </TourRoute>
     </motion.div>
@@ -291,7 +316,7 @@ const North = () => {
 };
 
 const TourWrapper = styled(motion.div)`
-  height: 22.5vh;
+  height: 30vh;
   overflow: hidden;
 `;
 

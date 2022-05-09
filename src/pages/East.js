@@ -34,6 +34,25 @@ const East = () => {
       exit="exit"
     >
       <ScrollTop />
+
+      <TourWrapper
+        id="kilkenny-wrapper"
+        variants={TourAnim3}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
+        <div className="image-wrapper">
+          <Link className="link" to="/kil">
+            <img
+              src={Kil1s}
+              alt="Kilkenny"
+              srcSet={`${Kil1s} 400w, ${Kil1m} 800w, ${Kil1} 1200w`}
+            />
+            <h1>Kilkenny</h1>
+          </Link>
+        </div>
+      </TourWrapper>
       <TourWrapper
         id="glendalough-wrapper"
         variants={TourAnim}
@@ -81,24 +100,6 @@ const East = () => {
           <Link className="link" to="/farm">
             <img src={Farm1} alt="Farm" />
             <h1>Sheepdog Demonstration</h1>
-          </Link>
-        </div>
-      </TourWrapper>
-      <TourWrapper
-        id="kilkenny-wrapper"
-        variants={TourAnim3}
-        initial="hidden"
-        animate="show"
-        exit="exit"
-      >
-        <div className="image-wrapper">
-          <Link className="link" to="/kil">
-            <img
-              src={Kil1s}
-              alt="Kilkenny"
-              srcSet={`${Kil1s} 400w, ${Kil1m} 800w, ${Kil1} 1200w`}
-            />
-            <h1>Kilkenny</h1>
           </Link>
         </div>
       </TourWrapper>

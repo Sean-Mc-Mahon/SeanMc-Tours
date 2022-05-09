@@ -77,7 +77,7 @@ const West = () => {
           </Link>
         </div>
       </TourWrapper>
-      <TourWrapper
+      {/* <TourWrapper
         id="kilmacduagh-wrapper"
         variants={TourAnim2}
         initial="hidden"
@@ -94,7 +94,7 @@ const West = () => {
             <h1>Kilmacduagh</h1>
           </Link>
         </div>
-      </TourWrapper>
+      </TourWrapper> */}
 
       <TourWrapper
         id="galway-wrapper"
@@ -120,8 +120,11 @@ const West = () => {
             <Col className="info-description">
               <h5 className="green">Departure</h5>
               <p>
-                The Cliffs tour leaves at 6:45 from the Hugh Lane Gallery on
-                Parnell Square, it is advised to arrive about 10 minutes early.
+                <strong>7:00am</strong> at The Starbucks Cafe on Dame Street / 1
+                College Green
+                <br />
+                <strong>7:05am</strong> at Dublin Bus Office, 59 O’Connell
+                Street, Dublin 1
               </p>
               <h5 className="green">To the Cliffs...</h5>
               <p>
@@ -130,6 +133,19 @@ const West = () => {
                 neighbouring village of Moneygall in 1851. Obama visited the
                 village in 2016 to meet distant relatives and enjoyed a pint of
                 Guinness with Michelle in the local pub while there.
+              </p>
+              <p>
+                After a quick pit stop at the service station we continue to the
+                cliffs passing Bunratty Castle along the way. Originally a
+                viking camp it was first made a timber fortress under the Anglo
+                Norman lord Robert DeMuscegros in 1251. The current stone
+                fortress was built by the MacNamara family in 1425.
+              </p>
+              <p>
+                Our first stop is at The Cliffs of Moher where you will have
+                plenty time to explore at your leasure. There are cafes, toilet
+                facilities, shops and an information center at the visitor
+                center.
               </p>
             </Col>
           </Row>
@@ -147,36 +163,20 @@ const West = () => {
             </Col>
             <Col xl={6} className="info-description">
               <h5 className="green">After the Cliffs...</h5>
-              <p>
-                After the cliffs we travel along the Wild Atlantic way, stopping
-                off at the burren to take in the sights. We then continue along
-                this coastal route and the views get better and better as we go.
-                Along the way we pass Ballyvaughn and Kinvarra, two fishing
-                villages each with exceptional thatch roof architecture.
-              </p>
             </Col>
           </Row>
           <Row>
-            <p>
-              After a quick pit stop at the service station we continue to the
-              cliffs passing Bunratty Castle along the way. Originally a viking
-              camp it was first made a timber fortress under the Anglo Norman
-              lord Robert DeMuscegros in 1251. The current stone fortress was
-              built by the MacNamara family in 1425.
-            </p>
-            <p>
-              Our first stop is at The Cliffs of Moher where you will have
-              plenty time to explore at your leasure. There are cafes, toilet
-              facilities, shops and an information center at the visitor center.
-            </p>
             <p>
               From the cliffs we will continue along the wild atlantic way
               passing the Aran Islands before making a quick stop at the
               desolate but beautiful{" "}
               <Link className="green" to="/burren">
-                <strong>The Burren</strong>
+                <strong>Burren</strong>
               </Link>
-              .
+              . We then continue along this coastal route and the views get
+              better and better as we go. Along the way we pass Ballyvaughn and
+              Kinvarra, two fishing villages each with exceptional thatch roof
+              architecture.
             </p>
           </Row>
           <Row>
@@ -191,16 +191,7 @@ const West = () => {
             </Col>
             <Col>
               <p>
-                Our next stop is at{" "}
-                <Link className="green" to="/kilmac">
-                  <strong>Kilmacduagh</strong>
-                </Link>
-                , along the way I will explain a little more about early
-                Christian Ireland and the relationship of these people with the
-                native Celts and invading Vikings.
-              </p>
-              <p>
-                After Kilmacduagh we continue to{" "}
+                After the Burren we continue to{" "}
                 <Link className="green" to="/gal">
                   <strong>Galway</strong>
                 </Link>{" "}
@@ -211,7 +202,8 @@ const West = () => {
               <h5 className="green">Back to Dublin</h5>
               <p>
                 Once we're all back on board after Galway we will drive coast to
-                coast back to Dublin, getting you back to Dublin around 7:30pm.
+                coast back to Dublin, getting you back to Dublin, dropping you
+                off at Cleary’s Store on O’Connell Street.
               </p>
             </Col>
           </Row>
@@ -222,7 +214,7 @@ const West = () => {
 };
 
 const TourWrapper = styled(motion.div)`
-  height: 22.5vh;
+  height: 30vh;
   overflow: hidden;
 `;
 const TourRoute = styled(motion.div)`
