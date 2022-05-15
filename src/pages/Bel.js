@@ -25,7 +25,7 @@ const Bel = () => {
       <ScrollTop />
       <Container fluid>
         <Row className="image-description">
-          <Col xl={6} className="image">
+          {/* <Col xl={6} className="image">
             <Swiper
               // install Swiper modules
               modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -98,9 +98,28 @@ const Bel = () => {
                 </div>
               </SwiperSlide>
             </Swiper>
-          </Col>
+          </Col> */}
           <Col xl={6} className="description">
             <h2 className="location-name">Belfast</h2>
+            <p>
+              On arrival to Belfast you will either be taking a Black Cab tour
+              of the city or else you will be brought to the Titanic museum.
+            </p>
+            <p>
+              The black cab tour is one of the most popular experiences Belfast
+              has to offer, local taxi drivers who themselves lived through the
+              period will tell you there own experiences of the time while
+              showing you the areas of significance from the troubles.
+            </p>
+            <p>
+              The Titanic museum is a beautiful interactive modern museum on the
+              site of the yard where the ship itself was made. The Titanic met
+              it's fateful end on it's maiden voyage in 1912 and has remained a
+              source of fascination worldwide ever since. If you choose the
+              museum you will get the chance to see what life was like on the
+              different classes of the ship as well as what life was like on the
+              different classes of the ship.
+            </p>
             <p>
               Belfast is the only city in Ireland to properly experience the
               industrial revolution. The main industries at the time were linen

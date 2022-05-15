@@ -203,7 +203,7 @@ const Reviews = () => {
                 <a
                   rel="noopener"
                   target={"blank"}
-                  href="https://www.google.com/search?q=wild+rover+tours&spell=1&sa=X&ved=2ahUKEwiDkar_09L3AhWjnVwKHRg2BgoQBSgAegQIAhAy&biw=1280&bih=601&dpr=1.5#lrd=0x48670e84ed16cde5:0x21732fdb7a6ba04b,1,,,"
+                  href="https://www.google.com/search?q=wild+rover+tours+reviews&oq=wild+rover+&aqs=chrome.0.69i59j46i39i175i199j69i60l3j69i57j0i131i433i512j0i273.4172j0j7&client=ms-unknown&sourceid=chrome-mobile&ie=UTF-8"
                 >
                   Google
                 </a>
