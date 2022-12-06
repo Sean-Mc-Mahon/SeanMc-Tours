@@ -44,7 +44,6 @@ const Reviews = () => {
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
-                      Great tour guide
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
                           <i class="fa-solid fa-star">
@@ -80,7 +79,6 @@ const Reviews = () => {
                 <SwiperSlide className="flexCol">
                   <Review className="review">
                     <h4 className="review-title">
-                      Must see
                       <i class="fa-solid fa-star">
                         <i class="fa-solid fa-star">
                           <i class="fa-solid fa-star">
@@ -168,7 +166,8 @@ const Reviews = () => {
               </p>
 
               <hr />
-              <p>
+              {/* get your quide section not needed for now */}
+              {/* <p>
                 <a
                   rel="noopener"
                   target={"blank"}
@@ -196,9 +195,7 @@ const Reviews = () => {
                 >
                   Get Your Guide (Glendalough Tour)
                 </a>
-              </p>
-
-              <hr />
+              </p> */}
               <p>
                 <a
                   rel="noopener"
@@ -227,6 +224,16 @@ const Reviews = () => {
                   href="https://www.viator.com/tours/Dublin/Northern-Ireland-Day-Trip-from-Dublin-Belfast-Black-Taxi-Tour-and-Giants-Causeway/d503-5300BLACKCAB"
                 >
                   Viator (Causeway Tour)
+                </a>
+              </p>
+              <hr />
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.viator.com/en-IE/tours/Dublin/Titanic-Visitor-Experience-and-Giants-Causeway-Day-Trip-from-Dublin/d503-5300TITANIC"
+                >
+                  Viator (Causeway Tour/Titanic)
                 </a>
               </p>
               <hr />
