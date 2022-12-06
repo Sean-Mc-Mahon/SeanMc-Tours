@@ -168,8 +168,8 @@ const West = () => {
           <Row>
             <p>
               From the cliffs we will continue along the wild atlantic way
-              passing the Aran Islands before making a quick stop at the
-              desolate but beautiful{" "}
+              passing the Aran Islands before driving through the desolate but
+              beautiful{" "}
               <Link className="green" to="/burren">
                 <strong>Burren</strong>
               </Link>

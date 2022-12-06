@@ -112,7 +112,7 @@ const Food = () => {
             <p>
               One of the things I miss most about Irish food while abroad is
               Irish breakfast. It usually consists of sausage, bacon, egg and
-              balck and white pudding, served with toast and tea or coffee.
+              black and white pudding, served with toast and tea or coffee.
             </p>
             <p>
               Pudding is a form of sausage made from pork, breadcrumbs, oats and
@@ -172,17 +172,6 @@ const Food = () => {
                 </a>
                 : A mix of Irish and Mediteranean food there is a North side and
                 Southside location, both very popular.
-              </p>
-              <p>
-                <a
-                  rel="noopener"
-                  target={"blank"}
-                  href="http://www.oneillspubdublin.com/"
-                >
-                  O'Neills
-                </a>
-                : A popular spot in the center of town for people who want to
-                experience an Irish fry.
               </p>
               <p>
                 <a
@@ -294,12 +283,11 @@ const Food = () => {
                 the walls are adorned with Irish stars of stage and screen.
               </p>
               <p>
-                <a rel="noopener" target={"blank"} href="http://klaw.ie/">
-                  Seafood Cafe
+                <a rel="noopener" target={"blank"} href="https://www.sole.ie/">
+                  Sole
                 </a>
-                : Right in the heart of Temple bar this place has a great
-                atmosphere and the chef Niall Sabongi has an excellent
-                reputation for seafood.
+                : While seafood is not something I enjoy personally I am often
+                asked about it and Sole has an excellent reputation.
               </p>
               <p>
                 <a
@@ -311,6 +299,29 @@ const Food = () => {
                 </a>
                 : Centrally located on Dame Street Forno 500 does a great
                 Neoploitan pizza.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.pipizzas.ie/"
+                >
+                  Pi
+                </a>
+                : If you want to try a great sourdough pizza then you should try
+                Pi, it often comes out on top of lists of best pizza places in
+                Dublin.
+              </p>
+              <p>
+                <a
+                  rel="noopener"
+                  target={"blank"}
+                  href="https://www.thesaucycow.com/"
+                >
+                  The Saucy Cow
+                </a>
+                : Perfect for vegans that still want to indulge in some rich and
+                tasty fast food, located right by Temple Bar.
               </p>
             </Col>
           </Row>

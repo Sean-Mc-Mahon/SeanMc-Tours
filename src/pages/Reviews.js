@@ -56,22 +56,22 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      I’m not usually a big tour kind of person but I really
-                      enjoyed this tour. Our guide Sean made the trip better
-                      than I thought a guide could have.
+                      Sean is really interesting to listen to (and also plays
+                      awesome music)! It was the perfect day trip, I highly
+                      recommend doing this while in Ireland.
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Alex_P</strong> (May 2022)
+                        <strong>Liv Campbell</strong> (Dec 2022)
                       </div>
                       <small className="review-site">
                         {" "}
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
+                          href="https://www.tripadvisor.ie/Attraction_Review-g186605-d2091253-Reviews-Wild_Rover_Tours-Dublin_County_Dublin.html"
                         >
-                          Viator
+                          Tripadvisor
                         </a>
                       </small>
                     </div>
@@ -92,24 +92,23 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      Highly recommend this tour. The views are breathtaking.
-                      The Cliff of Moher are a must. Galaway is a beautiful city
-                      and very vibrant. Shawn (guide) and Liza (driver) did an
-                      amazing job. Shawn shared a lot of information, very funny
-                      and took great care of his customers.
+                      The guide sean and driver Joe went above and beyond to
+                      make sure everyone enjoyed the day would highly recommend
+                      it we are already planning our next trip to the cliff's of
+                      moher.
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Isaedmarie_F</strong> (May 2022)
+                        <strong>Mandie kinsella</strong> (Dec 2022)
                       </div>
                       <small className="review-site">
                         {" "}
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
+                          href="https://www.google.com/search?q=wild+rover+tours+reviews&oq=wild+rover+&aqs=chrome.0.69i59j46i39i175i199j69i60l3j69i57j0i131i433i512j0i273.4172j0j7&client=ms-unknown&sourceid=chrome-mobile&ie=UTF-8#lrd=0x48670e84ed16cde5:0x21732fdb7a6ba04b,1,,,"
                         >
-                          Viator
+                          Google
                         </a>
                       </small>
                     </div>
@@ -129,21 +128,22 @@ const Reviews = () => {
                       </i>
                     </h4>
                     <p className="review-text">
-                      Our tourist guide Shaun and bus driver Lisa were great.
-                      💪😊
+                      The Cliff's were magnificent. But Sean and Warren made the
+                      trip to be a learning and enjoyable experience.
+                      Outstanding tour, thanks to them.
                     </p>
                     <div className="review-author">
                       <div className="review-name">
-                        <strong>Kate</strong> (April 2022)
+                        <strong>Thomas_N</strong> (Dec 2022)
                       </div>
                       <small className="review-site">
                         {" "}
                         <a
                           rel="noopener"
                           target={"blank"}
-                          href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsSa7KqrAwMGC0UjWoMLEwMzdItTBJTTE0S05JNbUyqDAyNDc2SktJMk80S0o0MEnyEijPzElRKMovSy1SKMkvLSoGAMfGFWM&q=wild+rover+tours&oq=wild+rover&aqs=chrome.1.69i57j46i131i175i199i433i512j69i59j0i433i512j0i512l3j69i60.5958j0j7&sourceid=chrome&ie=UTF-8#lrd=0x48670e84ed16cde5:0x21732fdb7a6ba04b,1,,,"
+                          href="https://www.viator.com/en-IE/tours/Dublin/Cliffs-of-Moher-Tour-Including-Wild-Atlantic-Way-and-Galway-City-from-Dublin/d503-5300MOHER"
                         >
-                          Google
+                          Viator
                         </a>
                       </small>
                     </div>
